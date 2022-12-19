@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -192,9 +192,13 @@
 <wire x1="-36.85" y1="-75.77721875" x2="-33.85" y2="-72.77721875" width="0.01" layer="20" curve="90"/>
 <wire x1="-33.85" y1="-72.77721875" x2="-33.85" y2="-47.89376875" width="0.01" layer="20"/>
 <wire x1="-33.85" y1="-47.89376875" x2="-32.85" y2="-46.9" width="0.01" layer="20" curve="-90"/>
-<wire x1="-32.85" y1="-46.9" x2="-3.4" y2="-46.9" width="0.01" layer="20"/>
-<wire x1="1.8" y1="-46.9" x2="26.8" y2="-46.9" width="0.01" layer="20"/>
-<wire x1="32" y1="-46.9" x2="55.805921875" y2="-46.9" width="0.01" layer="20"/>
+<wire x1="-32.85" y1="-46.9" x2="-5.4" y2="-46.9" width="0.01" layer="20"/>
+<wire x1="-5.4" y1="-46.9" x2="-3.4" y2="-44.9" width="0.01" layer="20" curve="90"/>
+<wire x1="1.8" y1="-44.9" x2="3.8" y2="-46.9" width="0.01" layer="20" curve="90"/>
+<wire x1="3.8" y1="-46.9" x2="24.8" y2="-46.9" width="0.01" layer="20"/>
+<wire x1="24.8" y1="-46.9" x2="26.8" y2="-44.9" width="0.01" layer="20" curve="90"/>
+<wire x1="32" y1="-44.9" x2="34" y2="-46.9" width="0.01" layer="20" curve="90"/>
+<wire x1="34" y1="-46.9" x2="55.805921875" y2="-46.9" width="0.01" layer="20"/>
 <wire x1="84.6130625" y1="-5.0000625" x2="84.613175" y2="5.00013125" width="0.01" layer="20" curve="60.001271"/>
 <wire x1="84.613175" y1="5.00013125" x2="46.636753125" y2="70.77721875" width="0.01" layer="20"/>
 <wire x1="46.636753125" y1="70.77721875" x2="37.976496875" y2="75.77721875" width="0.01" layer="20" curve="60.000015"/>
@@ -7181,16 +7185,12 @@ December 2022</text>
 <wire x1="-33.85" y1="-72.77721875" x2="-33.85" y2="-47.89376875" width="0.01" layer="49"/>
 <wire x1="-3.4" y1="-46.220709375" x2="-3.4" y2="-48.559190625" width="0.01" layer="49"/>
 <wire x1="1.8" y1="-48.559190625" x2="1.8" y2="-46.220709375" width="0.01" layer="49"/>
-<wire x1="-3.4" y1="-46.9" x2="-3.4" y2="-44.9" width="0.01" layer="20"/>
 <wire x1="-3.4" y1="-44.9" x2="-1.4" y2="-42.9" width="0.01" layer="20" curve="-90"/>
 <wire x1="-1.4" y1="-42.9" x2="-0.2" y2="-42.9" width="0.01" layer="20"/>
 <wire x1="-0.2" y1="-42.9" x2="1.8" y2="-44.9" width="0.01" layer="20" curve="-90"/>
-<wire x1="1.8" y1="-44.9" x2="1.8" y2="-46.9" width="0.01" layer="20"/>
-<wire x1="26.8" y1="-46.9" x2="26.8" y2="-44.9" width="0.01" layer="20"/>
 <wire x1="26.8" y1="-44.9" x2="28.8" y2="-42.9" width="0.01" layer="20" curve="-90"/>
 <wire x1="28.8" y1="-42.9" x2="30" y2="-42.9" width="0.01" layer="20"/>
 <wire x1="30" y1="-42.9" x2="32" y2="-44.9" width="0.01" layer="20" curve="-90"/>
-<wire x1="32" y1="-44.9" x2="32" y2="-46.9" width="0.01" layer="20"/>
 <hole x="-54.3" y="-31.85" drill="3.5"/>
 <hole x="-12.8" y="2.85" drill="3.5"/>
 <hole x="-54.3" y="2.85" drill="3.5"/>
