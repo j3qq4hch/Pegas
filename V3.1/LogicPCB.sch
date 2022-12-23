@@ -7085,6 +7085,18 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%"/>
 <part name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%" value="000"/>
 <part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%" value="000"/>
+<part name="R8" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%"/>
+<part name="LED1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/4"/>
+<part name="GND10" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="R9" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%"/>
+<part name="LED2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/4"/>
+<part name="GND14" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="R10" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%"/>
+<part name="LED3" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/4"/>
+<part name="GND15" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="R11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%"/>
+<part name="LED5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/4"/>
+<part name="GND16" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -8764,6 +8776,66 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 <attribute name="TOLERANCE" x="317.754" y="203.708" size="0.762" layer="96" font="vector"/>
 <attribute name="ALLOCATED" x="317.5" y="207.264" size="0.762" layer="97" font="vector" align="center"/>
 </instance>
+<instance part="R8" gate="G$1" x="312.42" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="312.42" y="149.86" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="314.452" y="149.606" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="311.912" y="146.05" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="TOLERANCE" x="314.452" y="150.114" size="0.762" layer="96" font="vector" rot="R90"/>
+<attribute name="ALLOCATED" x="310.896" y="149.86" size="0.762" layer="97" font="vector" rot="R90" align="center"/>
+</instance>
+<instance part="LED1" gate="G$1" x="312.42" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="309.88" y="139.7" size="1.27" layer="95" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="COLOR" x="312.928" y="139.954" size="0.635" layer="96" font="vector" rot="R270" align="center-right"/>
+<attribute name="PACKAGE" x="311.912" y="139.954" size="0.635" layer="96" font="vector" rot="R270" align="center-right"/>
+</instance>
+<instance part="GND10" gate="1" x="312.42" y="129.54" smashed="yes">
+<attribute name="VALUE" x="312.42" y="128.27" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="R9" gate="G$1" x="322.58" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="322.58" y="149.86" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="324.612" y="149.606" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="322.072" y="146.05" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="TOLERANCE" x="324.612" y="150.114" size="0.762" layer="96" font="vector" rot="R90"/>
+<attribute name="ALLOCATED" x="321.056" y="149.86" size="0.762" layer="97" font="vector" rot="R90" align="center"/>
+</instance>
+<instance part="LED2" gate="G$1" x="322.58" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="320.04" y="139.7" size="1.27" layer="95" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="COLOR" x="323.088" y="139.954" size="0.635" layer="96" font="vector" rot="R270" align="center-right"/>
+<attribute name="PACKAGE" x="322.072" y="139.954" size="0.635" layer="96" font="vector" rot="R270" align="center-right"/>
+</instance>
+<instance part="GND14" gate="1" x="322.58" y="129.54" smashed="yes">
+<attribute name="VALUE" x="322.58" y="128.27" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="R10" gate="G$1" x="332.74" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="332.74" y="149.86" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="334.772" y="149.606" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="332.232" y="146.05" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="TOLERANCE" x="334.772" y="150.114" size="0.762" layer="96" font="vector" rot="R90"/>
+<attribute name="ALLOCATED" x="331.216" y="149.86" size="0.762" layer="97" font="vector" rot="R90" align="center"/>
+</instance>
+<instance part="LED3" gate="G$1" x="332.74" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="139.7" size="1.27" layer="95" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="COLOR" x="333.248" y="139.954" size="0.635" layer="96" font="vector" rot="R270" align="center-right"/>
+<attribute name="PACKAGE" x="332.232" y="139.954" size="0.635" layer="96" font="vector" rot="R270" align="center-right"/>
+</instance>
+<instance part="GND15" gate="1" x="332.74" y="129.54" smashed="yes">
+<attribute name="VALUE" x="332.74" y="128.27" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="R11" gate="G$1" x="342.9" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="342.9" y="149.86" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="344.932" y="149.606" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="342.392" y="146.05" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="TOLERANCE" x="344.932" y="150.114" size="0.762" layer="96" font="vector" rot="R90"/>
+<attribute name="ALLOCATED" x="341.376" y="149.86" size="0.762" layer="97" font="vector" rot="R90" align="center"/>
+</instance>
+<instance part="LED5" gate="G$1" x="342.9" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="340.36" y="139.7" size="1.27" layer="95" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="COLOR" x="343.408" y="139.954" size="0.635" layer="96" font="vector" rot="R270" align="center-right"/>
+<attribute name="PACKAGE" x="342.392" y="139.954" size="0.635" layer="96" font="vector" rot="R270" align="center-right"/>
+</instance>
+<instance part="GND16" gate="1" x="342.9" y="129.54" smashed="yes">
+<attribute name="VALUE" x="342.9" y="128.27" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8843,6 +8915,26 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="60.96" y1="152.4" x2="60.96" y2="154.94" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<wire x1="312.42" y1="132.08" x2="312.42" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<wire x1="322.58" y1="132.08" x2="322.58" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND15" gate="1" pin="GND"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<wire x1="332.74" y1="132.08" x2="332.74" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND16" gate="1" pin="GND"/>
+<pinref part="LED5" gate="G$1" pin="C"/>
+<wire x1="342.9" y1="132.08" x2="342.9" y2="134.62" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VDD_12V" class="0">
 <segment>
@@ -8899,9 +8991,9 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 <net name="HLK_TX0" class="0">
 <segment>
 <pinref part="MODULE2" gate="G$1" pin="UART_TXD0"/>
-<label x="312.42" y="215.9" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="215.9" size="1.27" layer="95" xref="yes"/>
 <wire x1="256.54" y1="213.36" x2="256.54" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="215.9" x2="312.42" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="215.9" x2="325.12" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CON35" gate="G$1" pin="5"/>
@@ -8912,8 +9004,8 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 <net name="HLK_RX0" class="0">
 <segment>
 <pinref part="MODULE2" gate="G$1" pin="UART_RXD0"/>
-<label x="312.42" y="218.44" size="1.27" layer="95" xref="yes"/>
-<wire x1="312.42" y1="218.44" x2="254" y2="218.44" width="0.1524" layer="91"/>
+<label x="325.12" y="218.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="325.12" y1="218.44" x2="254" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="254" y1="218.44" x2="254" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8970,20 +9062,6 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="304.8" y1="205.74" x2="312.42" y2="205.74" width="0.1524" layer="91"/>
 <label x="304.8" y="205.74" size="1.27" layer="95" font="vector"/>
-</segment>
-</net>
-<net name="LINK0" class="0">
-<segment>
-<pinref part="MODULE2" gate="G$1" pin="EPHY_LED0"/>
-<wire x1="292.1" y1="170.18" x2="294.4876" y2="170.18" width="0.1524" layer="91"/>
-<label x="294.64" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="LINK1" class="0">
-<segment>
-<pinref part="MODULE2" gate="G$1" pin="EPHY_LED1"/>
-<wire x1="292.1" y1="167.64" x2="294.4876" y2="167.64" width="0.1524" layer="91"/>
-<label x="294.64" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$88" class="0">
@@ -9124,9 +9202,10 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 </net>
 <net name="LINK2" class="0">
 <segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="322.58" y1="154.94" x2="322.58" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="MODULE2" gate="G$1" pin="EPHY_LED2"/>
-<wire x1="292.1" y1="165.1" x2="294.64" y2="165.1" width="0.1524" layer="91"/>
-<label x="294.64" y="165.1" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="292.1" y1="165.1" x2="322.58" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P0_RX-" class="0">
@@ -9179,9 +9258,10 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 </net>
 <net name="LINK4" class="0">
 <segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="312.42" y1="154.94" x2="312.42" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="MODULE2" gate="G$1" pin="EPHY_LED4"/>
-<wire x1="292.1" y1="160.02" x2="294.64" y2="160.02" width="0.1524" layer="91"/>
-<label x="294.64" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="292.1" y1="160.02" x2="312.42" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD_24V" class="0">
@@ -9481,6 +9561,50 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="322.58" y1="205.74" x2="325.12" y2="205.74" width="0.1524" layer="91"/>
 <label x="325.12" y="205.74" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="142.24" x2="312.42" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="322.58" y1="142.24" x2="322.58" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="332.74" y1="142.24" x2="332.74" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="342.9" y1="142.24" x2="342.9" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="332.74" y1="154.94" x2="332.74" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="MODULE2" gate="G$1" pin="EPHY_LED1"/>
+<wire x1="292.1" y1="167.64" x2="332.74" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="342.9" y1="154.94" x2="342.9" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="MODULE2" gate="G$1" pin="EPHY_LED0"/>
+<wire x1="292.1" y1="170.18" x2="342.9" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
