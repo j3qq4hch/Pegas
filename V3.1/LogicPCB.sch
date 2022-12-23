@@ -7081,6 +7081,10 @@ DIN A3, landscape with location and doc. field</description>
 <part name="+P7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="12V" device=""/>
 <part name="GND2" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="CON3" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="RJ45-NO_SHIELD" device="-5556416-1" package3d_urn="urn:adsk.eagle:package:37057646/3"/>
+<part name="R4" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%"/>
+<part name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%"/>
+<part name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%" value="000"/>
+<part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%" value="000"/>
 </parts>
 <sheets>
 <sheet>
@@ -7488,6 +7492,20 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 </instance>
 <instance part="CON12" gate="G$1" x="10.16" y="200.66" smashed="yes">
 <attribute name="NAME" x="12.7" y="219.71" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="R4" gate="G$1" x="76.2" y="96.52" smashed="yes">
+<attribute name="NAME" x="76.2" y="96.52" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="75.946" y="94.488" size="0.762" layer="96" font="vector" align="bottom-right"/>
+<attribute name="PACKAGE" x="72.39" y="97.028" size="0.508" layer="95" font="vector" align="center"/>
+<attribute name="TOLERANCE" x="76.454" y="94.488" size="0.762" layer="96" font="vector"/>
+<attribute name="ALLOCATED" x="76.2" y="98.044" size="0.762" layer="97" font="vector" align="center"/>
+</instance>
+<instance part="R5" gate="G$1" x="76.2" y="93.98" smashed="yes">
+<attribute name="NAME" x="76.2" y="93.98" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="75.946" y="91.948" size="0.762" layer="96" font="vector" align="bottom-right"/>
+<attribute name="PACKAGE" x="72.39" y="94.488" size="0.508" layer="95" font="vector" align="center"/>
+<attribute name="TOLERANCE" x="76.454" y="91.948" size="0.762" layer="96" font="vector"/>
+<attribute name="ALLOCATED" x="76.2" y="95.504" size="0.762" layer="97" font="vector" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -7916,9 +7934,9 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 <pinref part="CON1" gate="G$1" pin="SERIAL1_RX"/>
 </segment>
 <segment>
-<pinref part="CON18" gate="G$1" pin="4"/>
-<label x="71.12" y="93.98" size="1.27" layer="95" xref="yes"/>
-<wire x1="68.58" y1="93.98" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
+<label x="83.82" y="93.98" size="1.27" layer="95" xref="yes"/>
+<wire x1="81.28" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -7933,9 +7951,9 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 <pinref part="CON1" gate="G$1" pin="SERIAL1_TX"/>
 </segment>
 <segment>
-<pinref part="CON18" gate="G$1" pin="3"/>
-<wire x1="68.58" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
-<label x="71.12" y="96.52" size="1.27" layer="95" xref="yes"/>
+<label x="83.82" y="96.52" size="1.27" layer="95" xref="yes"/>
+<wire x1="81.28" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -8545,6 +8563,20 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 <wire x1="38.1" y1="223.52" x2="40.64" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="CON18" gate="G$1" pin="3"/>
+<wire x1="68.58" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="CON18" gate="G$1" pin="4"/>
+<wire x1="68.58" y1="93.98" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -8718,6 +8750,20 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 <instance part="M1" gate="J3" x="86.36" y="152.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="82.55" y="168.91" size="2" layer="95" font="vector" ratio="12" rot="MR0" align="center"/>
 </instance>
+<instance part="R6" gate="G$1" x="317.5" y="208.28" smashed="yes">
+<attribute name="NAME" x="317.5" y="208.28" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="317.246" y="206.248" size="0.762" layer="96" font="vector" align="bottom-right"/>
+<attribute name="PACKAGE" x="313.69" y="208.788" size="0.508" layer="95" font="vector" align="center"/>
+<attribute name="TOLERANCE" x="317.754" y="206.248" size="0.762" layer="96" font="vector"/>
+<attribute name="ALLOCATED" x="317.5" y="209.804" size="0.762" layer="97" font="vector" align="center"/>
+</instance>
+<instance part="R7" gate="G$1" x="317.5" y="205.74" smashed="yes">
+<attribute name="NAME" x="317.5" y="205.74" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="317.246" y="203.708" size="0.762" layer="96" font="vector" align="bottom-right"/>
+<attribute name="PACKAGE" x="313.69" y="206.248" size="0.508" layer="95" font="vector" align="center"/>
+<attribute name="TOLERANCE" x="317.754" y="203.708" size="0.762" layer="96" font="vector"/>
+<attribute name="ALLOCATED" x="317.5" y="207.264" size="0.762" layer="97" font="vector" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8784,10 +8830,6 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 <junction x="58.42" y="15.24"/>
 <pinref part="CON35" gate="G$1" pin="11"/>
 <pinref part="CON35" gate="G$1" pin="12"/>
-<pinref part="CON35" gate="G$1" pin="10"/>
-<wire x1="55.88" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="20.32" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
-<junction x="58.42" y="17.78"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -8857,15 +8899,27 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 <net name="HLK_TX0" class="0">
 <segment>
 <pinref part="MODULE2" gate="G$1" pin="UART_TXD0"/>
+<label x="312.42" y="215.9" size="1.27" layer="95" xref="yes"/>
 <wire x1="256.54" y1="213.36" x2="256.54" y2="215.9" width="0.1524" layer="91"/>
-<label x="256.54" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="256.54" y1="215.9" x2="312.42" y2="215.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CON35" gate="G$1" pin="5"/>
+<wire x1="55.88" y1="33.02" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
+<label x="58.42" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="HLK_RX0" class="0">
 <segment>
 <pinref part="MODULE2" gate="G$1" pin="UART_RXD0"/>
-<wire x1="254" y1="213.36" x2="254" y2="215.9" width="0.1524" layer="91"/>
-<label x="254" y="215.9" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="312.42" y="218.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="312.42" y1="218.44" x2="254" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="254" y1="218.44" x2="254" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CON35" gate="G$1" pin="6"/>
+<wire x1="55.88" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
+<label x="58.42" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="P0_TX+" class="0">
@@ -8901,15 +8955,21 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 <net name="HLK_RX1" class="0">
 <segment>
 <pinref part="MODULE2" gate="G$1" pin="UART_RXD1"/>
-<wire x1="292.1" y1="177.8" x2="294.64" y2="177.8" width="0.1524" layer="91"/>
-<label x="294.64" y="177.8" size="1.27" layer="95" xref="yes"/>
+<wire x1="292.1" y1="177.8" x2="302.26" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="177.8" x2="302.26" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="302.26" y1="208.28" x2="312.42" y2="208.28" width="0.1524" layer="91"/>
+<label x="304.8" y="208.28" size="1.27" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="HLK_TX1" class="0">
 <segment>
 <pinref part="MODULE2" gate="G$1" pin="UART_TXD1"/>
-<wire x1="292.1" y1="175.26" x2="294.64" y2="175.26" width="0.1524" layer="91"/>
-<label x="294.64" y="175.26" size="1.27" layer="95" xref="yes"/>
+<wire x1="292.1" y1="175.26" x2="304.8" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="175.26" x2="304.8" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="304.8" y1="205.74" x2="312.42" y2="205.74" width="0.1524" layer="91"/>
+<label x="304.8" y="205.74" size="1.27" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="LINK0" class="0">
@@ -9126,33 +9186,29 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 </net>
 <net name="VDD_24V" class="0">
 <segment>
-<wire x1="55.88" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="CON35" gate="G$1" pin="9"/>
 <pinref part="+P48" gate="G$1" pin="VDD_24V"/>
-<pinref part="CON35" gate="G$1" pin="7"/>
-<wire x1="55.88" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="27.94" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
-<junction x="58.42" y="22.86"/>
-<pinref part="CON35" gate="G$1" pin="8"/>
-<wire x1="58.42" y1="25.4" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
-<junction x="58.42" y="25.4"/>
 <wire x1="78.74" y1="27.94" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="CON35" gate="G$1" pin="10"/>
+<wire x1="58.42" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="20.32" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
+<junction x="58.42" y="22.86"/>
 </segment>
 </net>
 <net name="SERIAL3_RX" class="0">
 <segment>
-<pinref part="CON35" gate="G$1" pin="6"/>
-<wire x1="55.88" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
-<label x="58.42" y="30.48" size="1.27" layer="95" xref="yes"/>
+<pinref part="CON35" gate="G$1" pin="8"/>
+<wire x1="55.88" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
+<label x="58.42" y="25.4" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SERIAL3_TX" class="0">
 <segment>
-<pinref part="CON35" gate="G$1" pin="5"/>
-<wire x1="55.88" y1="33.02" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
-<label x="58.42" y="33.02" size="1.27" layer="95" xref="yes"/>
+<pinref part="CON35" gate="G$1" pin="7"/>
+<wire x1="55.88" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<label x="58.42" y="27.94" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ETH1_RX+" class="0">
@@ -9411,6 +9467,20 @@ or probably https://www.chipdip.ru/product/hcm1203x</text>
 <wire x1="83.82" y1="81.28" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 <junction x="83.82" y="93.98"/>
 <label x="127" y="81.28" size="1.27" layer="95"/>
+</segment>
+</net>
+<net name="SERIAL1_TX" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="322.58" y1="208.28" x2="325.12" y2="208.28" width="0.1524" layer="91"/>
+<label x="325.12" y="208.28" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="SERIAL1_RX" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="322.58" y1="205.74" x2="325.12" y2="205.74" width="0.1524" layer="91"/>
+<label x="325.12" y="205.74" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
