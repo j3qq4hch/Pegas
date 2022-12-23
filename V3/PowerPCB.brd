@@ -5798,29 +5798,6 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.127" layer="21"/>
 </package>
-<package name="1X08-PTH-2.54-FEMALE" urn="urn:adsk.eagle:footprint:7746990/1" library_version="140">
-<pad name="1" x="-8.89" y="0" drill="1" diameter="1.8" rot="R90"/>
-<pad name="2" x="-6.35" y="0" drill="1" diameter="1.8" rot="R90"/>
-<pad name="3" x="-3.81" y="0" drill="1" diameter="1.8" rot="R90"/>
-<pad name="4" x="-1.27" y="0" drill="1" diameter="1.8" rot="R90"/>
-<pad name="5" x="1.27" y="0" drill="1" diameter="1.8" rot="R90"/>
-<pad name="6" x="3.81" y="0" drill="1" diameter="1.8" rot="R90"/>
-<pad name="7" x="6.35" y="0" drill="1" diameter="1.8" rot="R90"/>
-<pad name="8" x="8.89" y="0" drill="1" diameter="1.8" rot="R90"/>
-<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-<rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
-<wire x1="-10.16" y1="-1.27" x2="-10.16" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="1.27" x2="10.16" y2="1.27" width="0.127" layer="21"/>
-<wire x1="10.16" y1="1.27" x2="10.16" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-1.27" x2="-10.16" y2="-1.27" width="0.127" layer="21"/>
-</package>
 <package name="1X12-PTH-2.54-FEMALE" urn="urn:adsk.eagle:footprint:15583061/1" library_version="140">
 <pad name="1" x="-13.97" y="0" drill="1" diameter="1.7" rot="R90"/>
 <pad name="2" x="-11.43" y="0" drill="1" diameter="1.7" rot="R90"/>
@@ -5852,6 +5829,17 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <wire x1="15.24" y1="-1.27" x2="15.24" y2="1.27" width="0.127" layer="21"/>
 <wire x1="15.24" y1="1.27" x2="-15.24" y2="1.27" width="0.127" layer="21"/>
 </package>
+<package name="1X02-PTH-2.54-FEMALE" urn="urn:adsk.eagle:footprint:32579455/1" library_version="140">
+<pad name="1" x="-1.27" y="0" drill="1" diameter="1.8" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1" diameter="1.8" rot="R90"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
+<text x="0" y="2" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X06-PTH-2.54-FEMALE" urn="urn:adsk.eagle:package:15321847/2" type="model" library_version="139">
@@ -5859,14 +5847,14 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <packageinstance name="1X06-PTH-2.54-FEMALE"/>
 </packageinstances>
 </package3d>
-<package3d name="1X08-PTH-2.54-FEMALE" urn="urn:adsk.eagle:package:7747001/3" type="model" library_version="140">
-<packageinstances>
-<packageinstance name="1X08-PTH-2.54-FEMALE"/>
-</packageinstances>
-</package3d>
 <package3d name="1X12-PTH-2.54-FEMALE" urn="urn:adsk.eagle:package:15583065/1" type="box" library_version="140">
 <packageinstances>
 <packageinstance name="1X12-PTH-2.54-FEMALE"/>
+</packageinstances>
+</package3d>
+<package3d name="1X02-PTH-2.54-FEMALE" urn="urn:adsk.eagle:package:32579456/2" type="model" library_version="140">
+<packageinstances>
+<packageinstance name="1X02-PTH-2.54-FEMALE"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -7151,9 +7139,6 @@ package type OT</description>
 <attribute name="TOLERANCE" value="1%" x="36" y="-0.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="40" y="11.4" size="0.5" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X08-PTH-2.54-FEMALE" package3d_urn="urn:adsk.eagle:package:7747001/3" value="PINHEAD_1X08-2.54-FEMALE" x="-34" y="3.46" smashed="yes" rot="R270">
-<attribute name="NAME" x="-34" y="3.46" size="1" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
-</element>
 <element name="R23" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0603" package3d_urn="urn:adsk.eagle:package:2539454/3" value="10K2" x="-13.625" y="-19.75" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="" x="-13.625" y="-19.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="ALLOCATED" value="+" x="-13.625" y="-19.75" size="1.778" layer="27" rot="R270" display="off"/>
@@ -7372,6 +7357,12 @@ package type OT</description>
 </element>
 <element name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X12-PTH-2.54-FEMALE" package3d_urn="urn:adsk.eagle:package:15583065/1" value="PINHEAD_1X12-2.54-FEMALE" x="34" y="-3.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.46" y="-3.54" size="1" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+</element>
+<element name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X06-PTH-2.54-FEMALE" package3d_urn="urn:adsk.eagle:package:15321847/2" value="PINHEAD_1X06-2.54-FEMALE" x="-34" y="6" smashed="yes" rot="R270">
+<attribute name="NAME" x="-34" y="6" size="1" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+</element>
+<element name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X02-PTH-2.54-FEMALE" package3d_urn="urn:adsk.eagle:package:32579456/2" value="PINHEAD_1X02-2.54-FEMALE" x="-23.5" y="-7" smashed="yes" rot="R180">
+<attribute name="NAME" x="-23.5" y="-9" size="1" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 </elements>
 <signals>
@@ -7763,9 +7754,6 @@ package type OT</description>
 <contactref element="C40" pad="1"/>
 <contactref element="C41" pad="1"/>
 <contactref element="R20" pad="1"/>
-<contactref element="CON3" pad="1"/>
-<contactref element="CON3" pad="2"/>
-<contactref element="CON3" pad="3"/>
 <via x="36.8" y="13.3" extent="1-16" drill="0.5" diameter="1"/>
 <via x="35.7" y="9.1" extent="1-16" drill="0.5" diameter="1"/>
 <via x="39.5" y="9.1" extent="1-16" drill="0.5" diameter="1"/>
@@ -7842,6 +7830,9 @@ package type OT</description>
 <via x="-1.5" y="37.55" extent="1-16" drill="0.5" diameter="1"/>
 <via x="-0.45" y="37.55" extent="1-16" drill="0.5" diameter="1"/>
 <via x="0.6" y="37.55" extent="1-16" drill="0.5" diameter="1"/>
+<contactref element="CON2" pad="1"/>
+<contactref element="CON2" pad="2"/>
+<contactref element="CON2" pad="3"/>
 </signal>
 <signal name="VDD_5V">
 <contactref element="L4" pad="2"/>
@@ -7958,9 +7949,9 @@ package type OT</description>
 <wire x1="-25.6" y1="14.225" x2="-25.6" y2="13.2041625" width="0.3" layer="1"/>
 <wire x1="-25.6" y1="13.2041625" x2="-26.3807625" y2="11.3192375" width="0.3" layer="1" curve="-45.000063"/>
 <wire x1="-26.3807625" y1="11.3192375" x2="-32.97" y2="4.73" width="0.3" layer="1"/>
-<contactref element="CON3" pad="4"/>
-<contactref element="CON3" pad="5"/>
-<contactref element="CON3" pad="6"/>
+<contactref element="CON2" pad="4"/>
+<contactref element="CON2" pad="5"/>
+<contactref element="CON2" pad="6"/>
 </signal>
 <signal name="BOOT1">
 <contactref element="IC1" pad="1"/>
@@ -8236,14 +8227,12 @@ package type OT</description>
 <contactref element="Q1" pad="S"/>
 <contactref element="D5" pad="1"/>
 <contactref element="R24" pad="2"/>
-<contactref element="CON3" pad="7"/>
-<wire x1="-30.85" y1="-8.2" x2="-14.442640625" y2="-8.2" width="0.5" layer="1"/>
-<wire x1="-14.442640625" y1="-8.2" x2="-12.321321875" y2="-9.078678125" width="0.5" layer="1" curve="-44.999958"/>
-<wire x1="-12.321321875" y1="-9.078678125" x2="-11.3" y2="-10.1" width="0.5" layer="1"/>
-<wire x1="-30.85" y1="-8.2" x2="-32.4" y2="-6.65" width="0.5" layer="1" curve="-90"/>
-<wire x1="-32.4" y1="-6.65" x2="-32.4" y2="-5.318428125" width="0.5" layer="1"/>
-<wire x1="-32.4" y1="-5.318428125" x2="-32.9857875" y2="-3.9042125" width="0.5" layer="1" curve="45.000063"/>
-<wire x1="-32.9857875" y1="-3.9042125" x2="-34" y2="-2.89" width="0.5" layer="1"/>
+<contactref element="CON3" pad="1"/>
+<wire x1="-22.23" y1="-7" x2="-22.208678125" y2="-7.021321875" width="0.3" layer="1"/>
+<wire x1="-22.208678125" y1="-7.021321875" x2="-20.087359375" y2="-7.9" width="0.3" layer="1" curve="44.99994"/>
+<wire x1="-20.087359375" y1="-7.9" x2="-14.742640625" y2="-7.9" width="0.3" layer="1"/>
+<wire x1="-14.742640625" y1="-7.9" x2="-12.621321875" y2="-8.778678125" width="0.3" layer="1" curve="-44.999958"/>
+<wire x1="-12.621321875" y1="-8.778678125" x2="-11.1" y2="-10.3" width="0.3" layer="1"/>
 </signal>
 <signal name="PWRSW">
 <contactref element="Q1" pad="G"/>
@@ -8252,7 +8241,6 @@ package type OT</description>
 <contactref element="R23" pad="2"/>
 <contactref element="D5" pad="3"/>
 <contactref element="R24" pad="1"/>
-<contactref element="CON3" pad="8"/>
 <wire x1="-40.03" y1="-23.55" x2="-40.03" y2="-23" width="0.5" layer="1"/>
 <wire x1="-40.03" y1="-23" x2="-39.03" y2="-22" width="0.5" layer="1" curve="-90"/>
 <wire x1="-39.03" y1="-22" x2="-32.28" y2="-22" width="0.5" layer="1"/>
@@ -8267,15 +8255,15 @@ package type OT</description>
 <wire x1="-13.925" y1="-21.75" x2="-14.425" y2="-22.25" width="0.3" layer="1" curve="-90"/>
 <wire x1="-14.425" y1="-22.25" x2="-17.325" y2="-22.25" width="0.3" layer="1"/>
 <wire x1="-13.925" y1="-21.725" x2="-13.625" y2="-21.725" width="0.3" layer="1"/>
-<wire x1="-34" y1="-5.43" x2="-33.8357875" y2="-5.5942125" width="0.3" layer="1"/>
-<wire x1="-33.8357875" y1="-5.5942125" x2="-33.25" y2="-7.008428125" width="0.3" layer="1" curve="-45.00009"/>
-<wire x1="-33.25" y1="-7.008428125" x2="-31.308428125" y2="-8.95" width="0.3" layer="1" curve="90"/>
-<wire x1="-31.308428125" y1="-8.95" x2="-16.9" y2="-8.95" width="0.3" layer="1"/>
-<wire x1="-16.9" y1="-8.95" x2="-14.9" y2="-10.95" width="0.3" layer="1" curve="-90"/>
-<wire x1="-14.9" y1="-10.95" x2="-14.9" y2="-18.94228125" width="0.3" layer="1"/>
-<wire x1="-14.9" y1="-18.94228125" x2="-14.540990625" y2="-19.809009375" width="0.3" layer="1" curve="45.000063"/>
-<wire x1="-14.540990625" y1="-19.809009375" x2="-13.875" y2="-20.475" width="0.3" layer="1"/>
+<wire x1="-14.9" y1="-10.95" x2="-16.9" y2="-8.95" width="0.3" layer="1" curve="90"/>
+<wire x1="-14.9" y1="-10.95" x2="-14.9" y2="-18.207359375" width="0.3" layer="1"/>
+<wire x1="-14.9" y1="-18.207359375" x2="-14.021321875" y2="-20.328678125" width="0.3" layer="1" curve="44.999958"/>
+<wire x1="-14.021321875" y1="-20.328678125" x2="-13.875" y2="-20.475" width="0.3" layer="1"/>
 <wire x1="-13.875" y1="-20.475" x2="-13.625" y2="-20.475" width="0.3" layer="1"/>
+<contactref element="CON3" pad="2"/>
+<wire x1="-16.9" y1="-8.95" x2="-21.577359375" y2="-8.95" width="0.3" layer="1"/>
+<wire x1="-21.577359375" y1="-8.95" x2="-23.698678125" y2="-8.071321875" width="0.3" layer="1" curve="-44.999958"/>
+<wire x1="-23.698678125" y1="-8.071321875" x2="-24.77" y2="-7" width="0.3" layer="1"/>
 </signal>
 <signal name="BATT_VOLTAGE">
 <contactref element="R20" pad="2"/>
