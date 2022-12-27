@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="10" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -5376,11 +5376,10 @@ should be connected with 16AWG wire</text>
 <text x="-37" y="-1" size="2.5" layer="21" font="vector" ratio="15" rot="R90" align="center">+</text>
 <text x="-36.5" y="13" size="2.5" layer="21" font="vector" ratio="15" rot="R270" align="center">-</text>
 <text x="0" y="-42" size="6.5" layer="21" font="vector" ratio="12" align="center">Connect et non queri</text>
-<text x="30.825" y="47.025" size="2" layer="21" font="vector" ratio="12" align="center-left">Pegas V3
-Power PCB
+<text x="29.325" y="46.025" size="2" layer="21" font="vector" ratio="12" align="center-left">Pegas V3.1
+Power PCB mk0
 December 2022</text>
-<text x="-48.22770625" y="10.63176875" size="3" layer="21" font="vector" ratio="12" rot="R60" align="center">Payload
-power</text>
+<text x="-54.13176875" y="23.77229375" size="3" layer="21" font="vector" ratio="12" rot="R150" align="center">Payload power</text>
 <wire x1="43.55" y1="-23.05" x2="36.32994375" y2="-18.59881875" width="1" layer="22" style="shortdash"/>
 <wire x1="-36.188425" y1="26.1089" x2="-42.5" y2="30" width="1" layer="22" style="shortdash"/>
 <wire x1="22.934625" y1="-10.340578125" x2="-31.669909375" y2="23.323225" width="1" layer="22" style="shortdash"/>
@@ -5412,6 +5411,46 @@ power</text>
 <text x="-41.232046875" y="37.21961875" size="3" layer="21" font="vector" ratio="12" rot="R240" align="center">-</text>
 <text x="48.075575" y="23.9035875" size="3" layer="21" font="vector" ratio="12" rot="R120" align="center">+</text>
 <text x="45.115321875" y="29.8035875" size="3" layer="21" font="vector" ratio="12" rot="R120" align="center">-</text>
+<polygon width="0.3" layer="21">
+<vertex x="-76" y="13.5"/>
+<vertex x="-78" y="15.5"/>
+<vertex x="-74" y="15.5"/>
+</polygon>
+<polygon width="0.3" layer="21">
+<vertex x="-26" y="70.5"/>
+<vertex x="-24" y="68.5"/>
+<vertex x="-24" y="72.5"/>
+</polygon>
+<polygon width="0.3" layer="21">
+<vertex x="25.5" y="70"/>
+<vertex x="23.5" y="72"/>
+<vertex x="23.5" y="68"/>
+</polygon>
+<polygon width="0.3" layer="21">
+<vertex x="19.5" y="47"/>
+<vertex x="17.5" y="45"/>
+<vertex x="19.5" y="43"/>
+</polygon>
+<polygon width="0.3" layer="21">
+<vertex x="70" y="-8.5"/>
+<vertex x="70" y="-12.5"/>
+<vertex x="72" y="-10.5"/>
+</polygon>
+<polygon width="0.3" layer="21">
+<vertex x="21.5" y="-15"/>
+<vertex x="23.5" y="-13"/>
+<vertex x="21.5" y="-11"/>
+</polygon>
+<polygon width="0.3" layer="21">
+<vertex x="-48" y="-53.5"/>
+<vertex x="-46" y="-51.5"/>
+<vertex x="-50" y="-51.5"/>
+</polygon>
+<polygon width="0.3" layer="21">
+<vertex x="-44.5" y="12"/>
+<vertex x="-44.5" y="8"/>
+<vertex x="-42.5" y="10"/>
+</polygon>
 </plain>
 <libraries>
 <library name="Connectors" urn="urn:adsk.eagle:library:3750510">
@@ -5979,8 +6018,7 @@ package type OT</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="basic"/>
-<variantdef name="pinout"/>
+<variantdef name="basic" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -6224,24 +6262,24 @@ package type OT</description>
 <attribute name="MANF#" value="XT30PW-M" x="48.625" y="-34.35" size="1.778" layer="27" rot="R240" display="off"/>
 <attribute name="NAME" x="53.024990625" y="-36.85" size="1.27" layer="25" font="vector" ratio="15" rot="R240" align="center"/>
 </element>
-<element name="PAD8" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="48.55" y="-26.1" smashed="yes" rot="MR120"/>
-<element name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-47.6" y="32.8" smashed="yes" rot="MR300"/>
+<element name="PAD8" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="48.55" y="-26.1" populate="no" smashed="yes" rot="MR120"/>
+<element name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-47.6" y="32.8" populate="no" smashed="yes" rot="MR300"/>
 <element name="B1H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/5" value="BATTERY_CON-XT60PW-M" x="-48.79165" y="45.490378125" smashed="yes" rot="R60">
 <attribute name="NAME" x="-48.79165" y="45.490378125" size="2.5" layer="21" font="vector" ratio="15" rot="R60" align="center"/>
 </element>
 <element name="B3H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/5" value="BATTERY_CON-XT60PW-M" x="56.29165" y="32.5" smashed="yes" rot="R300">
 <attribute name="NAME" x="56.29165" y="32.5" size="2.5" layer="21" font="vector" ratio="15" rot="R300" align="center"/>
 </element>
-<element name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-52.25" y="-3.75" smashed="yes" rot="MR240"/>
-<element name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="51.15" y="38.65" smashed="yes" rot="MR60"/>
+<element name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-52.25" y="-3.75" populate="no" smashed="yes" rot="MR240"/>
+<element name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="51.15" y="38.65" populate="no" smashed="yes" rot="MR60"/>
 <element name="B3L" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/5" value="BATTERY_CON-XT60PW-M" x="-53.19165" y="-16.349996875" smashed="yes" rot="R120">
 <attribute name="NAME" x="-53.19165" y="-16.349996875" size="2.5" layer="21" font="vector" ratio="15" rot="R120" align="center"/>
 </element>
 <element name="B1L" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/5" value="BATTERY_CON-XT60PW-M" x="61.51665" y="-23.975" smashed="yes" rot="R240">
 <attribute name="NAME" x="61.51665" y="-23.975" size="2.5" layer="21" font="vector" ratio="15" rot="R240" align="center"/>
 </element>
-<element name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-10.7" y="-14.5" smashed="yes" rot="MR0"/>
-<element name="PAD5" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-8.2" y="60.85" smashed="yes" rot="MR180"/>
+<element name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-10.7" y="-14.5" populate="no" smashed="yes" rot="MR0"/>
+<element name="PAD5" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-8.2" y="60.85" populate="no" smashed="yes" rot="MR180"/>
 <element name="B2H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/5" value="BATTERY_CON-XT60PW-M" x="0" y="65" smashed="yes">
 <attribute name="NAME" x="0" y="65" size="2.5" layer="21" font="vector" ratio="15" align="center"/>
 </element>
@@ -7074,7 +7112,7 @@ package type OT</description>
 <attribute name="TOLERANCE" value="1%" x="30.5" y="13.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.5" y="13.1" size="0.5" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="C40" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="DNP" x="40" y="12.1" smashed="yes" rot="R180">
+<element name="C40" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="DNP" x="40" y="12.1" populate="no" smashed="yes" rot="R180">
 <attribute name="AEC-Q" value="" x="51" y="18.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ALLOCATED" value="" x="51" y="18.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY#" value="" x="51" y="18.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7100,7 +7138,7 @@ package type OT</description>
 <attribute name="TOLERANCE" value="1%" x="27.5" y="4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.5" y="10" size="0.5" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="C41" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="DNP" x="37.5" y="10.4" smashed="yes">
+<element name="C41" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="DNP" x="37.5" y="10.4" populate="no" smashed="yes">
 <attribute name="AEC-Q" value="" x="33.5" y="2.4" size="1.778" layer="27" display="off"/>
 <attribute name="ALLOCATED" value="" x="33.5" y="2.4" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="" x="33.5" y="2.4" size="1.778" layer="27" display="off"/>
@@ -7235,13 +7273,13 @@ package type OT</description>
 <attribute name="PACKAGE" value="0603" x="40.4" y="15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="40.4" y="15" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R27" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0603" package3d_urn="urn:adsk.eagle:package:2539454/3" value="143K" x="42" y="6" smashed="yes" rot="R90">
+<element name="R27" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0603" package3d_urn="urn:adsk.eagle:package:2539454/3" value="39K" x="42" y="6" smashed="yes" rot="R90">
 <attribute name="AEC-Q" value="" x="47" y="-6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ALLOCATED" value="+" x="47" y="-6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY#" value="" x="47" y="-6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LCSC#" value="C22877" x="47" y="-6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC#" value="C23153" x="47" y="-6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="UNI-ROYAL(Uniroyal Elec)" x="47" y="-6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANF#" value="0603WAF1433T5E" x="47" y="-6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="0603WAF3902T5E" x="47" y="-6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="42" y="6" size="0.5" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="OPERATING_TEMP" value="" x="47" y="-6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="0603" x="47" y="-6" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7504,7 +7542,7 @@ package type OT</description>
 <via x="49.45" y="0.45" extent="1-16" drill="0.5" diameter="1"/>
 <wire x1="46.8" y1="0.45" x2="49.45" y2="0.45" width="1" layer="1"/>
 </signal>
-<signal name="B1MID">
+<signal name="B1MID" class="1">
 <contactref element="PAD4" pad="P$1"/>
 <contactref element="B1H" pad="-"/>
 <contactref element="PAD8" pad="P$1"/>
@@ -7523,7 +7561,7 @@ package type OT</description>
 </polygon>
 <wire x1="-47.6" y1="32.8" x2="48.55" y2="-26.1" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="B3MID">
+<signal name="B3MID" class="1">
 <contactref element="PAD5" pad="P$1"/>
 <contactref element="B2H" pad="-"/>
 <contactref element="PAD3" pad="P$1"/>
@@ -7542,7 +7580,7 @@ package type OT</description>
 </polygon>
 <wire x1="-3.5" y1="-12.8" x2="-3.6" y2="57.8" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="B2MID">
+<signal name="B2MID" class="1">
 <contactref element="B3L" pad="+"/>
 <contactref element="PAD1" pad="P$1"/>
 <contactref element="B3H" pad="-"/>
@@ -7801,7 +7839,11 @@ package type OT</description>
 <vertex x="32.6" y="-16.6"/>
 <vertex x="32.6" y="-10" curve="90"/>
 <vertex x="30.6" y="-8"/>
-<vertex x="-34.5" y="-8"/>
+<vertex x="-13" y="-8"/>
+<vertex x="-13" y="-5.5"/>
+<vertex x="-31" y="-5.5"/>
+<vertex x="-31" y="-2"/>
+<vertex x="-34.988121875" y="-2"/>
 </polygon>
 <via x="37" y="-5.3" extent="1-16" drill="0.5" diameter="1"/>
 <via x="37" y="-2.6" extent="1-16" drill="0.5" diameter="1"/>
@@ -8198,11 +8240,11 @@ package type OT</description>
 <vertex x="37.075" y="-34.1"/>
 <vertex x="-36.85" y="-34.1" curve="-90"/>
 <vertex x="-46.85" y="-24.1"/>
-<vertex x="-46.85" y="-14.8" curve="-90"/>
-<vertex x="-46" y="-13.95"/>
-<vertex x="-44.35" y="-13.95" curve="-90"/>
-<vertex x="-43.35" y="-14.95"/>
-<vertex x="-43.35" y="-20.4" curve="90"/>
+<vertex x="-46.85" y="-15.95" curve="-90"/>
+<vertex x="-44.85" y="-13.95"/>
+<vertex x="-43.85" y="-13.95" curve="-90"/>
+<vertex x="-41.85" y="-15.95"/>
+<vertex x="-41.85" y="-21.9" curve="90"/>
 <vertex x="-40.75" y="-23"/>
 <vertex x="-14.1" y="-23" curve="90"/>
 <vertex x="-12.1" y="-21"/>

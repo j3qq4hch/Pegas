@@ -8173,7 +8173,7 @@ DIN A3, landscape with location and doc. field</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="СЫЧ" current="yes"/>
+<variantdef name="СЫЧ"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
