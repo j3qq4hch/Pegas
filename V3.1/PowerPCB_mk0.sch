@@ -5971,9 +5971,9 @@ package type OT</description>
 <part name="GND71" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="R15" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%" value="143K">
 <attribute name="ALLOCATED" value="+"/>
-<attribute name="LCSC#" value="C23074"/>
+<attribute name="LCSC#" value="C22877"/>
 <attribute name="MANF" value="UNI-ROYAL(Uniroyal Elec)"/>
-<attribute name="MANF#" value="0603WAF5362T5E"/>
+<attribute name="MANF#" value="0603WAF1433T5E"/>
 </part>
 <part name="R16" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%" value="10K">
 <attribute name="ALLOCATED" value="+"/>
@@ -5999,7 +5999,7 @@ package type OT</description>
 <part name="IC5" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="INA169" device="" package3d_urn="urn:adsk.eagle:package:24428071/4"/>
 <part name="R18" library="SHUNT_RESISTORS" library_urn="urn:adsk.eagle:library:2644450" deviceset="CURRENT_SHUNT_KELVIN" device="-3920-KELVIN" package3d_urn="urn:adsk.eagle:package:10874636/3" technology="-0.0002R" value="200 µOhms"/>
 <part name="GND1" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="C39" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="0.1uF">
+<part name="C39" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="0.1u">
 <attribute name="ALLOCATED" value="+"/>
 <attribute name="LCSC#" value="C14663"/>
 <attribute name="MANF" value="YAGEO"/>
@@ -6018,11 +6018,11 @@ package type OT</description>
 <variant name="basic" populate="no"/>
 </part>
 <part name="GND64" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="R20" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%" value="10K2">
+<part name="R20" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%" value="10K">
 <attribute name="ALLOCATED" value="+"/>
-<attribute name="LCSC#" value="C22772"/>
-<attribute name="MANF" value="UNI-ROYAL(Uniroyal Elec)"/>
-<attribute name="MANF#" value="0603WAF1022T5E"/>
+<attribute name="LCSC#" value="C160601"/>
+<attribute name="MANF" value="YAGEO"/>
+<attribute name="MANF#" value="RT0603FRD0710KL"/>
 </part>
 <part name="C41" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="DNP">
 <variant name="basic" populate="no"/>
@@ -6053,11 +6053,11 @@ package type OT</description>
 <part name="U$4" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="BATNEG" device="" value="BATNEG"/>
 <part name="U$5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="BATNEG" device="" value="BATNEG"/>
 <part name="U$6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="BATNEG" device="" value="BATNEG"/>
-<part name="R23" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%" value="10K2">
+<part name="R23" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%" value="10K">
 <attribute name="ALLOCATED" value="+"/>
-<attribute name="LCSC#" value="C22772"/>
-<attribute name="MANF" value="UNI-ROYAL(Uniroyal Elec)"/>
-<attribute name="MANF#" value="0603WAF1022T5E"/>
+<attribute name="LCSC#" value="C160601"/>
+<attribute name="MANF" value="YAGEO"/>
+<attribute name="MANF#" value="RT0603FRD0710KL"/>
 </part>
 <part name="+P16" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VBAT" device=""/>
 <part name="D5" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BZX84C" device="" package3d_urn="urn:adsk.eagle:package:2640533/10" technology="12"/>
@@ -6146,7 +6146,11 @@ package type OT</description>
 <attribute name="MANF#" value="CL31B225KCHSNNE"/>
 <attribute name="VOLTAGE" value="100V"/>
 </part>
-<part name="C62" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="10n">
+<part name="C62" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="4700p">
+<attribute name="ALLOCATED" value="+"/>
+<attribute name="LCSC#" value="C106218"/>
+<attribute name="MANF" value="YAGEO"/>
+<attribute name="MANF#" value="CC0603KRX7R9BB472"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="L1" library="power_inductors" library_urn="urn:adsk.eagle:library:3345990" deviceset="3.3µH" device="-IHLP-202BZ" package3d_urn="urn:adsk.eagle:package:36690889/2" value="3.3uH">
@@ -6186,6 +6190,14 @@ package type OT</description>
 <part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X06" device="-2.54-FEMALE" package3d_urn="urn:adsk.eagle:package:15321847/2"/>
 <part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X02" device="-2.54-FEMALE" package3d_urn="urn:adsk.eagle:package:32579456/2"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3P-LOC" device=""/>
+<part name="C45" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="4700p">
+<attribute name="ALLOCATED" value="+"/>
+<attribute name="LCSC#" value="C106218"/>
+<attribute name="MANF" value="YAGEO"/>
+<attribute name="MANF#" value="CC0603KRX7R9BB472"/>
+<attribute name="VOLTAGE" value="50V"/>
+</part>
+<part name="GND82" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -6231,8 +6243,8 @@ Vout = 0.8 * (Rh/Rl + 1)</text>
 <text x="167.64" y="205.74" size="1.778" layer="97">Vout = 12,24 V</text>
 <text x="167.64" y="327.66" size="1.778" layer="97">Vout = 5.088</text>
 <text x="167.64" y="266.7" size="1.778" layer="97">Vout = 5.088</text>
-<text x="50.8" y="12.7" size="1.778" layer="97" font="vector" align="center">Max differential input voltage for INA169 is 0.5 V</text>
-<text x="55.88" y="50.8" size="1.27" layer="97" font="vector" align="center">Place C3 in case low pass filtering on the output needed</text>
+<text x="63.5" y="12.7" size="1.778" layer="97" font="vector" align="center">Max differential input voltage for INA169 is 0.5 V</text>
+<text x="60.96" y="53.34" size="1.27" layer="97" font="vector" align="center">Place C3 in case low pass filtering on the output needed</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="106.68" y="147.32" smashed="yes">
@@ -6953,19 +6965,19 @@ Vout = 0.8 * (Rh/Rl + 1)</text>
 <attribute name="NAME" x="130.81" y="105.41" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 <attribute name="MANF#" x="130.81" y="77.47" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="C54" gate="G$1" x="93.98" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="94.869" y="82.55" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="93.726" y="80.01" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
-<attribute name="PACKAGE" x="94.488" y="79.248" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
-<attribute name="VOLTAGE" x="93.472" y="82.296" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
-<attribute name="ALLOCATED" x="91.44" y="81.28" size="0.508" layer="97" font="vector" rot="R90" align="center"/>
+<instance part="C54" gate="G$1" x="91.44" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="92.329" y="82.55" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="91.186" y="80.01" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="91.948" y="79.248" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
+<attribute name="VOLTAGE" x="90.932" y="82.296" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<attribute name="ALLOCATED" x="88.9" y="81.28" size="0.508" layer="97" font="vector" rot="R90" align="center"/>
 </instance>
-<instance part="C62" gate="G$1" x="106.68" y="73.66" smashed="yes" rot="MR270">
-<attribute name="NAME" x="107.569" y="72.39" size="1.27" layer="95" font="vector" rot="MR270" align="center-left"/>
-<attribute name="VALUE" x="106.426" y="74.93" size="0.762" layer="96" font="vector" rot="MR270" align="bottom-right"/>
-<attribute name="PACKAGE" x="107.188" y="75.692" size="0.508" layer="97" font="vector" rot="MR90" align="center"/>
-<attribute name="VOLTAGE" x="106.172" y="72.644" size="0.508" layer="97" font="vector" rot="MR270" align="center-left"/>
-<attribute name="ALLOCATED" x="104.14" y="73.66" size="0.508" layer="97" font="vector" rot="MR270" align="center"/>
+<instance part="C62" gate="G$1" x="106.68" y="73.66" smashed="yes" rot="R270">
+<attribute name="NAME" x="105.791" y="72.39" size="1.27" layer="95" font="vector" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="106.934" y="74.93" size="0.762" layer="96" font="vector" rot="R270" align="bottom-right"/>
+<attribute name="PACKAGE" x="106.172" y="75.692" size="0.508" layer="97" font="vector" rot="R90" align="center"/>
+<attribute name="VOLTAGE" x="107.188" y="72.644" size="0.508" layer="97" font="vector" rot="R270" align="center-left"/>
+<attribute name="ALLOCATED" x="109.22" y="73.66" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
 </instance>
 <instance part="L1" gate="G$1" x="172.72" y="101.6" smashed="yes">
 <attribute name="LCSC#" x="172.72" y="101.6" size="1.778" layer="96" font="vector" align="center" display="off"/>
@@ -7002,11 +7014,11 @@ Vout = 0.8 * (Rh/Rl + 1)</text>
 <instance part="GND77" gate="1" x="106.68" y="63.5" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="106.68" y="62.23" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="GND78" gate="1" x="93.98" y="63.5" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="93.98" y="62.23" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="GND78" gate="1" x="91.44" y="63.5" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="91.44" y="62.23" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="+P19" gate="G$1" x="93.98" y="99.06" smashed="yes">
-<attribute name="VALUE" x="93.98" y="102.616" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P19" gate="G$1" x="91.44" y="99.06" smashed="yes">
+<attribute name="VALUE" x="91.44" y="102.616" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="C43" gate="G$1" x="190.5" y="96.52" smashed="yes" rot="R270">
 <attribute name="NAME" x="189.611" y="95.25" size="1.27" layer="95" font="vector" rot="R270" align="center-left"/>
@@ -7018,15 +7030,15 @@ Vout = 0.8 * (Rh/Rl + 1)</text>
 <instance part="GND80" gate="1" x="190.5" y="88.9" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="190.5" y="87.63" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="C44" gate="G$1" x="99.06" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="99.949" y="82.55" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="98.806" y="80.01" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
-<attribute name="PACKAGE" x="99.568" y="79.248" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
-<attribute name="VOLTAGE" x="98.552" y="82.296" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
-<attribute name="ALLOCATED" x="96.52" y="81.28" size="0.508" layer="97" font="vector" rot="R90" align="center"/>
+<instance part="C44" gate="G$1" x="96.52" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="97.409" y="82.55" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="96.266" y="80.01" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="97.028" y="79.248" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
+<attribute name="VOLTAGE" x="96.012" y="82.296" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<attribute name="ALLOCATED" x="93.98" y="81.28" size="0.508" layer="97" font="vector" rot="R90" align="center"/>
 </instance>
-<instance part="GND81" gate="1" x="99.06" y="63.5" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="99.06" y="62.23" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="GND81" gate="1" x="96.52" y="63.5" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="96.52" y="62.23" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="CON1" gate="G$1" x="238.76" y="327.66" smashed="yes" rot="MR0">
 <attribute name="NAME" x="236.22" y="361.95" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
@@ -7131,6 +7143,16 @@ Vout = 0.8 * (Rh/Rl + 1)</text>
 </instance>
 <instance part="+P15" gate="G$1" x="83.82" y="45.72" smashed="yes">
 <attribute name="VALUE" x="83.82" y="49.276" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="C45" gate="G$1" x="101.6" y="73.66" smashed="yes" rot="R270">
+<attribute name="NAME" x="100.711" y="72.39" size="1.27" layer="95" font="vector" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="101.854" y="74.93" size="0.762" layer="96" font="vector" rot="R270" align="bottom-right"/>
+<attribute name="PACKAGE" x="101.092" y="75.692" size="0.508" layer="97" font="vector" rot="R90" align="center"/>
+<attribute name="VOLTAGE" x="102.108" y="72.644" size="0.508" layer="97" font="vector" rot="R270" align="center-left"/>
+<attribute name="ALLOCATED" x="104.14" y="73.66" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
+</instance>
+<instance part="GND82" gate="1" x="101.6" y="63.5" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="101.6" y="62.23" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -7505,7 +7527,7 @@ Vout = 0.8 * (Rh/Rl + 1)</text>
 <pinref part="GND77" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="66.04" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="66.04" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C54" gate="G$1" pin="1"/>
 <pinref part="GND78" gate="1" pin="GND"/>
 </segment>
@@ -7517,7 +7539,7 @@ Vout = 0.8 * (Rh/Rl + 1)</text>
 <segment>
 <pinref part="GND81" gate="1" pin="GND"/>
 <pinref part="C44" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="66.04" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="66.04" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND79" gate="1" pin="GND"/>
@@ -7559,6 +7581,11 @@ Vout = 0.8 * (Rh/Rl + 1)</text>
 <pinref part="GND64" gate="1" pin="GND"/>
 <pinref part="C40" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="27.94" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND82" gate="1" pin="GND"/>
+<pinref part="C45" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="66.04" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -8060,17 +8087,17 @@ Vout = 0.8 * (Rh/Rl + 1)</text>
 <pinref part="+P12" gate="G$1" pin="VBAT"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="83.82" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
-<junction x="93.98" y="96.52"/>
+<wire x1="116.84" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="83.82" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
+<junction x="91.44" y="96.52"/>
 <pinref part="IC10" gate="G$1" pin="VIN"/>
 <pinref part="C54" gate="G$1" pin="2"/>
 <pinref part="+P19" gate="G$1" pin="VBAT"/>
-<wire x1="93.98" y1="99.06" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="99.06" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C44" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="83.82" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
-<junction x="99.06" y="96.52"/>
+<wire x1="96.52" y1="83.82" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
+<junction x="96.52" y="96.52"/>
 </segment>
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
@@ -8152,6 +8179,10 @@ Vout = 0.8 * (Rh/Rl + 1)</text>
 <pinref part="IC10" gate="G$1" pin="SS/TR"/>
 <pinref part="C62" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="76.2" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C45" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="76.2" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="86.36" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
+<junction x="106.68" y="86.36"/>
 </segment>
 </net>
 <net name="BOOT" class="0">
