@@ -8173,7 +8173,7 @@ DIN A3, landscape with location and doc. field</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="СЫЧ"/>
+<variantdef name="СЫЧ" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -8208,7 +8208,9 @@ DIN A3, landscape with location and doc. field</description>
 </part>
 <part name="GND49" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="D1" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="SS34" device="" package3d_urn="urn:adsk.eagle:package:4410767/4"/>
-<part name="CON14" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2"/>
+<part name="CON14" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2">
+<variant name="СЫЧ" populate="no"/>
+</part>
 <part name="R18" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/3" technology="-1%" value="1K">
 <attribute name="ALLOCATED" value="+"/>
 <attribute name="LCSC#" value="C21190"/>
