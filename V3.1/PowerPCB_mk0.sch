@@ -442,7 +442,8 @@
 <wire x1="-2.1" y1="-0.6" x2="-0.8" y2="-0.6" width="0.2" layer="21"/>
 <text x="0" y="0.6" size="1" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="XT30-RA" urn="urn:adsk.eagle:footprint:6285130/4" library_version="240">
+<package name="XT30-RA" urn="urn:adsk.eagle:footprint:6285130/5" library_version="283" library_locally_modified="yes">
+<description>&lt;a href = https://www.tme.eu/Document/6eb2005a51a52592b3f19e8a450c54c8/XT30PW-M.pdf&gt;Drawing&lt;/a&gt;</description>
 <pad name="+" x="-2.5" y="0" drill="1.7" diameter="2.7" thermals="no"/>
 <pad name="-" x="2.5" y="0" drill="1.7" diameter="2.7" thermals="no"/>
 <pad name="P$3" x="-5.5" y="10" drill="1" diameter="1.5"/>
@@ -455,35 +456,49 @@
 <rectangle x1="2" y1="0" x2="3" y2="3.25" layer="51"/>
 <text x="0" y="5.08" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="XT60PW-M" urn="urn:adsk.eagle:footprint:8047309/4" library_version="281">
+<package name="XT60PW-M" urn="urn:adsk.eagle:footprint:8047309/5" library_version="285">
 <wire x1="-7.75" y1="9.1" x2="-7.75" y2="-6.1" width="0.127" layer="21"/>
 <wire x1="-7.75" y1="-6.1" x2="-4.75" y2="-9.1" width="0.127" layer="21" curve="90"/>
 <wire x1="-4.75" y1="-9.1" x2="4.75" y2="-9.1" width="0.127" layer="21"/>
 <wire x1="4.75" y1="-9.1" x2="7.75" y2="-6.1" width="0.127" layer="21" curve="90"/>
 <wire x1="7.75" y1="-6.1" x2="7.75" y2="9.1" width="0.127" layer="21"/>
 <wire x1="7.75" y1="9.1" x2="-7.75" y2="9.1" width="0.127" layer="21"/>
-<wire x1="-6.95" y1="-0.2" x2="-6.55" y2="-0.2" width="0.01" layer="46"/>
-<wire x1="-6.55" y1="-0.2" x2="-6.35" y2="-0.4" width="0.01" layer="46" curve="-90"/>
 <wire x1="-6.35" y1="-0.4" x2="-6.35" y2="-2" width="0.01" layer="46"/>
-<wire x1="-6.35" y1="-2" x2="-6.55" y2="-2.2" width="0.01" layer="46" curve="-90"/>
-<wire x1="-6.55" y1="-2.2" x2="-6.95" y2="-2.2" width="0.01" layer="46"/>
-<wire x1="-6.95" y1="-2.2" x2="-7.15" y2="-2" width="0.01" layer="46" curve="-90"/>
+<wire x1="-6.35" y1="-2" x2="-6.75" y2="-2.4" width="0.01" layer="46" curve="-90"/>
+<wire x1="-6.75" y1="-2.4" x2="-7.15" y2="-2" width="0.01" layer="46" curve="-90"/>
 <wire x1="-7.15" y1="-2" x2="-7.15" y2="-0.4" width="0.01" layer="46"/>
-<wire x1="-7.15" y1="-0.4" x2="-6.95" y2="-0.2" width="0.01" layer="46" curve="-90"/>
-<wire x1="6.55" y1="-0.2" x2="6.95" y2="-0.2" width="0.01" layer="46"/>
-<wire x1="6.95" y1="-0.2" x2="7.15" y2="-0.4" width="0.01" layer="46" curve="-90"/>
+<wire x1="-7.15" y1="-0.4" x2="-6.75" y2="0" width="0.01" layer="46" curve="-90"/>
+<wire x1="-6.75" y1="0" x2="-6.35" y2="-0.4" width="0.01" layer="46" curve="-90"/>
 <wire x1="7.15" y1="-0.4" x2="7.15" y2="-2" width="0.01" layer="46"/>
-<wire x1="7.15" y1="-2" x2="6.95" y2="-2.2" width="0.01" layer="46" curve="-90"/>
-<wire x1="6.95" y1="-2.2" x2="6.55" y2="-2.2" width="0.01" layer="46"/>
-<wire x1="6.55" y1="-2.2" x2="6.35" y2="-2" width="0.01" layer="46" curve="-90"/>
+<wire x1="7.15" y1="-2" x2="6.75" y2="-2.4" width="0.01" layer="46" curve="-90"/>
+<wire x1="6.75" y1="-2.4" x2="6.35" y2="-2" width="0.01" layer="46" curve="-90"/>
 <wire x1="6.35" y1="-2" x2="6.35" y2="-0.4" width="0.01" layer="46"/>
-<wire x1="6.35" y1="-0.4" x2="6.55" y2="-0.2" width="0.01" layer="46" curve="-90"/>
+<wire x1="6.35" y1="-0.4" x2="6.75" y2="0" width="0.01" layer="46" curve="-90"/>
+<wire x1="6.75" y1="0" x2="7.15" y2="-0.4" width="0.01" layer="46" curve="-90"/>
+<wire x1="-6.95" y1="-0.2" x2="-6.55" y2="-0.2" width="0.01" layer="49"/>
+<wire x1="-6.55" y1="-0.2" x2="-6.35" y2="-0.4" width="0.01" layer="49" curve="-90"/>
+<wire x1="-6.35" y1="-0.4" x2="-6.35" y2="-2" width="0.01" layer="49"/>
+<wire x1="-6.35" y1="-2" x2="-6.55" y2="-2.2" width="0.01" layer="49" curve="-90"/>
+<wire x1="-6.55" y1="-2.2" x2="-6.95" y2="-2.2" width="0.01" layer="49"/>
+<wire x1="-6.95" y1="-2.2" x2="-7.15" y2="-2" width="0.01" layer="49" curve="-90"/>
+<wire x1="-7.15" y1="-2" x2="-7.15" y2="-0.4" width="0.01" layer="49"/>
+<wire x1="-7.15" y1="-0.4" x2="-6.95" y2="-0.2" width="0.01" layer="49" curve="-90"/>
+<wire x1="6.55" y1="-0.2" x2="6.95" y2="-0.2" width="0.01" layer="49"/>
+<wire x1="6.95" y1="-0.2" x2="7.15" y2="-0.4" width="0.01" layer="49" curve="-90"/>
+<wire x1="7.15" y1="-0.4" x2="7.15" y2="-2" width="0.01" layer="49"/>
+<wire x1="7.15" y1="-2" x2="6.95" y2="-2.2" width="0.01" layer="49" curve="-90"/>
+<wire x1="6.95" y1="-2.2" x2="6.55" y2="-2.2" width="0.01" layer="49"/>
+<wire x1="6.55" y1="-2.2" x2="6.35" y2="-2" width="0.01" layer="49" curve="-90"/>
+<wire x1="6.35" y1="-2" x2="6.35" y2="-0.4" width="0.01" layer="49"/>
+<wire x1="6.35" y1="-0.4" x2="6.55" y2="-0.2" width="0.01" layer="49" curve="-90"/>
 <pad name="-" x="-3.6" y="-7.2" drill="2.5" thermals="no"/>
 <pad name="+" x="3.6" y="-7.2" drill="2.5" shape="square" thermals="no"/>
 <text x="3.6" y="-3.6" size="1.27" layer="21" font="vector">+</text>
 <text x="0" y="0" size="2.5" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
-<smd name="P$3" x="-6.75" y="-1.2" dx="2.5" dy="1.3" layer="1" roundness="50" rot="R90"/>
-<smd name="P$4" x="6.75" y="-1.2" dx="2.5" dy="1.3" layer="1" roundness="50" rot="R90"/>
+<smd name="P$3" x="-6.75" y="-1.2" dx="3" dy="1.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="P$4" x="6.75" y="-1.2" dx="3" dy="1.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="P$1" x="-6.75" y="-1.2" dx="3" dy="1.4" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="P$2" x="6.75" y="-1.2" dx="3" dy="1.4" layer="16" roundness="100" rot="R90" cream="no"/>
 </package>
 <package name="XT90PW-M" urn="urn:adsk.eagle:footprint:37026028/2" library_version="240">
 <description>&lt;a href = https://www.tme.eu/Document/7357a049cc8e5ea73e34d2124a313a81/XT90PW.pdf&gt;Drawing&lt;/a&gt;</description>
@@ -531,12 +546,13 @@
 <packageinstance name="BM02B-SURS-TF"/>
 </packageinstances>
 </package3d>
-<package3d name="XT30-RA" urn="urn:adsk.eagle:package:6285131/5" type="model" library_version="240">
+<package3d name="XT30-RA" urn="urn:adsk.eagle:package:6285131/6" type="model" library_version="283" library_locally_modified="yes">
+<description>&lt;a href = https://www.tme.eu/Document/6eb2005a51a52592b3f19e8a450c54c8/XT30PW-M.pdf&gt;Drawing&lt;/a&gt;</description>
 <packageinstances>
 <packageinstance name="XT30-RA"/>
 </packageinstances>
 </package3d>
-<package3d name="XT60PW-M" urn="urn:adsk.eagle:package:8047310/6" type="model" library_version="281">
+<package3d name="XT60PW-M" urn="urn:adsk.eagle:package:8047310/7" type="model" library_version="285">
 <packageinstances>
 <packageinstance name="XT60PW-M"/>
 </packageinstances>
@@ -579,7 +595,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BATTERY_CON" urn="urn:adsk.eagle:component:3750537/22" prefix="CON" library_version="281">
+<deviceset name="BATTERY_CON" urn="urn:adsk.eagle:component:3750537/24" prefix="CON" library_version="285">
 <gates>
 <gate name="G$1" symbol="POWER_CONNECTOR_2PIN-TABS" x="0" y="0"/>
 </gates>
@@ -643,7 +659,7 @@
 <connect gate="G$1" pin="PAD2" pad="P$4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6285131/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6285131/6"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -657,11 +673,11 @@
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
-<connect gate="G$1" pin="PAD1" pad="P$3"/>
-<connect gate="G$1" pin="PAD2" pad="P$4"/>
+<connect gate="G$1" pin="PAD1" pad="P$1 P$3"/>
+<connect gate="G$1" pin="PAD2" pad="P$2 P$4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8047310/6"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8047310/7"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1269,8 +1285,8 @@
 </polygon>
 <smd name="P$1" x="0" y="0" dx="2.4" dy="2.4" layer="1" roundness="100"/>
 </package>
-<package name="10X4" urn="urn:adsk.eagle:footprint:36258868/2" library_version="60">
-<smd name="P$1" x="0" y="0" dx="9.6" dy="3.6" layer="1" roundness="20" rot="R90"/>
+<package name="10X4" urn="urn:adsk.eagle:footprint:36258868/2" locally_modified="yes" library_version="65" library_locally_modified="yes">
+<smd name="P$1" x="0" y="0" dx="9.6" dy="3.6" layer="1" roundness="20" rot="R90" cream="no"/>
 <wire x1="2" y1="4.5" x2="2" y2="-4.5" width="0.127" layer="21"/>
 <wire x1="2" y1="-4.5" x2="1.5" y2="-5" width="0.127" layer="21" curve="-90"/>
 <wire x1="1.5" y1="-5" x2="-1.5" y2="-5" width="0.127" layer="21"/>
@@ -1656,7 +1672,7 @@
 <packageinstance name="HEX_PAD_FILLET_2.5X2.9"/>
 </packageinstances>
 </package3d>
-<package3d name="10X4" urn="urn:adsk.eagle:package:36258869/2" type="box" library_version="60">
+<package3d name="10X4" urn="urn:adsk.eagle:package:36258869/2" type="box" library_version="65" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="10X4"/>
 </packageinstances>
@@ -5575,7 +5591,7 @@ package type OT</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="basic" current="yes"/>
+<variantdef name="basic"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -5586,12 +5602,12 @@ package type OT</description>
 </class>
 </classes>
 <parts>
-<part name="M1" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/5"/>
-<part name="M2" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/5"/>
-<part name="M5" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/5"/>
-<part name="M4" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/5"/>
-<part name="M6" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/5"/>
-<part name="M3" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/5"/>
+<part name="M1" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/6"/>
+<part name="M2" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/6"/>
+<part name="M5" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/6"/>
+<part name="M4" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/6"/>
+<part name="M6" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/6"/>
+<part name="M3" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/6"/>
 <part name="GND52" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A5L-LOC" device=""/>
 <part name="PAD8" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4">
@@ -5601,24 +5617,24 @@ package type OT</description>
 <variant name="basic" populate="no"/>
 </part>
 <part name="+P7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VBAT" device=""/>
-<part name="B1H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/6"/>
-<part name="B3H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/6"/>
+<part name="B1H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/7"/>
+<part name="B3H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/7"/>
 <part name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4">
 <variant name="basic" populate="no"/>
 </part>
 <part name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4">
 <variant name="basic" populate="no"/>
 </part>
-<part name="B3L" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/6"/>
-<part name="B1L" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/6"/>
+<part name="B3L" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/7"/>
+<part name="B1L" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/7"/>
 <part name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4">
 <variant name="basic" populate="no"/>
 </part>
 <part name="PAD5" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4">
 <variant name="basic" populate="no"/>
 </part>
-<part name="B2H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/6"/>
-<part name="B2L" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/6"/>
+<part name="B2H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/7"/>
+<part name="B2L" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/7"/>
 <part name="IC2" library="dc-dc" library_urn="urn:adsk.eagle:library:3736309" deviceset="TPS54560B" device="" package3d_urn="urn:adsk.eagle:package:24308018/5"/>
 <part name="C10" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="0.1u">
 <attribute name="ALLOCATED" value="+"/>
@@ -6162,7 +6178,7 @@ package type OT</description>
 <variant name="basic" populate="no"/>
 </part>
 <part name="U$8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="BATNEG" device="" value="BATNEG"/>
-<part name="M7" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/5"/>
+<part name="M7" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="BATTERY_CON" device="-XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/6"/>
 <part name="GND66" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="+P17" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VBAT" device=""/>
 <part name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X06" device="-2.54-FEMALE" package3d_urn="urn:adsk.eagle:package:15321847/2" value="PINHEAD_1X06-2.54-FEMALE"/>

@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -5057,7 +5057,8 @@ PCB standoffs between the PCBs</text>
 <libraries>
 <library name="Connectors" urn="urn:adsk.eagle:library:3750510">
 <packages>
-<package name="XT30-RA" urn="urn:adsk.eagle:footprint:6285130/4" library_version="240">
+<package name="XT30-RA" urn="urn:adsk.eagle:footprint:6285130/5" library_version="283" library_locally_modified="yes">
+<description>&lt;a href = https://www.tme.eu/Document/6eb2005a51a52592b3f19e8a450c54c8/XT30PW-M.pdf&gt;Drawing&lt;/a&gt;</description>
 <pad name="+" x="-2.5" y="0" drill="1.7" diameter="2.7" thermals="no"/>
 <pad name="-" x="2.5" y="0" drill="1.7" diameter="2.7" thermals="no"/>
 <pad name="P$3" x="-5.5" y="10" drill="1" diameter="1.5"/>
@@ -5070,44 +5071,59 @@ PCB standoffs between the PCBs</text>
 <rectangle x1="2" y1="0" x2="3" y2="3.25" layer="51"/>
 <text x="0" y="5.08" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="XT60PW-M" urn="urn:adsk.eagle:footprint:8047309/4" library_version="281">
+<package name="XT60PW-M" urn="urn:adsk.eagle:footprint:8047309/5" library_version="285">
 <wire x1="-7.75" y1="9.1" x2="-7.75" y2="-6.1" width="0.127" layer="21"/>
 <wire x1="-7.75" y1="-6.1" x2="-4.75" y2="-9.1" width="0.127" layer="21" curve="90"/>
 <wire x1="-4.75" y1="-9.1" x2="4.75" y2="-9.1" width="0.127" layer="21"/>
 <wire x1="4.75" y1="-9.1" x2="7.75" y2="-6.1" width="0.127" layer="21" curve="90"/>
 <wire x1="7.75" y1="-6.1" x2="7.75" y2="9.1" width="0.127" layer="21"/>
 <wire x1="7.75" y1="9.1" x2="-7.75" y2="9.1" width="0.127" layer="21"/>
-<wire x1="-6.95" y1="-0.2" x2="-6.55" y2="-0.2" width="0.01" layer="46"/>
-<wire x1="-6.55" y1="-0.2" x2="-6.35" y2="-0.4" width="0.01" layer="46" curve="-90"/>
 <wire x1="-6.35" y1="-0.4" x2="-6.35" y2="-2" width="0.01" layer="46"/>
-<wire x1="-6.35" y1="-2" x2="-6.55" y2="-2.2" width="0.01" layer="46" curve="-90"/>
-<wire x1="-6.55" y1="-2.2" x2="-6.95" y2="-2.2" width="0.01" layer="46"/>
-<wire x1="-6.95" y1="-2.2" x2="-7.15" y2="-2" width="0.01" layer="46" curve="-90"/>
+<wire x1="-6.35" y1="-2" x2="-6.75" y2="-2.4" width="0.01" layer="46" curve="-90"/>
+<wire x1="-6.75" y1="-2.4" x2="-7.15" y2="-2" width="0.01" layer="46" curve="-90"/>
 <wire x1="-7.15" y1="-2" x2="-7.15" y2="-0.4" width="0.01" layer="46"/>
-<wire x1="-7.15" y1="-0.4" x2="-6.95" y2="-0.2" width="0.01" layer="46" curve="-90"/>
-<wire x1="6.55" y1="-0.2" x2="6.95" y2="-0.2" width="0.01" layer="46"/>
-<wire x1="6.95" y1="-0.2" x2="7.15" y2="-0.4" width="0.01" layer="46" curve="-90"/>
+<wire x1="-7.15" y1="-0.4" x2="-6.75" y2="0" width="0.01" layer="46" curve="-90"/>
+<wire x1="-6.75" y1="0" x2="-6.35" y2="-0.4" width="0.01" layer="46" curve="-90"/>
 <wire x1="7.15" y1="-0.4" x2="7.15" y2="-2" width="0.01" layer="46"/>
-<wire x1="7.15" y1="-2" x2="6.95" y2="-2.2" width="0.01" layer="46" curve="-90"/>
-<wire x1="6.95" y1="-2.2" x2="6.55" y2="-2.2" width="0.01" layer="46"/>
-<wire x1="6.55" y1="-2.2" x2="6.35" y2="-2" width="0.01" layer="46" curve="-90"/>
+<wire x1="7.15" y1="-2" x2="6.75" y2="-2.4" width="0.01" layer="46" curve="-90"/>
+<wire x1="6.75" y1="-2.4" x2="6.35" y2="-2" width="0.01" layer="46" curve="-90"/>
 <wire x1="6.35" y1="-2" x2="6.35" y2="-0.4" width="0.01" layer="46"/>
-<wire x1="6.35" y1="-0.4" x2="6.55" y2="-0.2" width="0.01" layer="46" curve="-90"/>
+<wire x1="6.35" y1="-0.4" x2="6.75" y2="0" width="0.01" layer="46" curve="-90"/>
+<wire x1="6.75" y1="0" x2="7.15" y2="-0.4" width="0.01" layer="46" curve="-90"/>
+<wire x1="-6.95" y1="-0.2" x2="-6.55" y2="-0.2" width="0.01" layer="49"/>
+<wire x1="-6.55" y1="-0.2" x2="-6.35" y2="-0.4" width="0.01" layer="49" curve="-90"/>
+<wire x1="-6.35" y1="-0.4" x2="-6.35" y2="-2" width="0.01" layer="49"/>
+<wire x1="-6.35" y1="-2" x2="-6.55" y2="-2.2" width="0.01" layer="49" curve="-90"/>
+<wire x1="-6.55" y1="-2.2" x2="-6.95" y2="-2.2" width="0.01" layer="49"/>
+<wire x1="-6.95" y1="-2.2" x2="-7.15" y2="-2" width="0.01" layer="49" curve="-90"/>
+<wire x1="-7.15" y1="-2" x2="-7.15" y2="-0.4" width="0.01" layer="49"/>
+<wire x1="-7.15" y1="-0.4" x2="-6.95" y2="-0.2" width="0.01" layer="49" curve="-90"/>
+<wire x1="6.55" y1="-0.2" x2="6.95" y2="-0.2" width="0.01" layer="49"/>
+<wire x1="6.95" y1="-0.2" x2="7.15" y2="-0.4" width="0.01" layer="49" curve="-90"/>
+<wire x1="7.15" y1="-0.4" x2="7.15" y2="-2" width="0.01" layer="49"/>
+<wire x1="7.15" y1="-2" x2="6.95" y2="-2.2" width="0.01" layer="49" curve="-90"/>
+<wire x1="6.95" y1="-2.2" x2="6.55" y2="-2.2" width="0.01" layer="49"/>
+<wire x1="6.55" y1="-2.2" x2="6.35" y2="-2" width="0.01" layer="49" curve="-90"/>
+<wire x1="6.35" y1="-2" x2="6.35" y2="-0.4" width="0.01" layer="49"/>
+<wire x1="6.35" y1="-0.4" x2="6.55" y2="-0.2" width="0.01" layer="49" curve="-90"/>
 <pad name="-" x="-3.6" y="-7.2" drill="2.5" thermals="no"/>
 <pad name="+" x="3.6" y="-7.2" drill="2.5" shape="square" thermals="no"/>
 <text x="3.6" y="-3.6" size="1.27" layer="21" font="vector">+</text>
 <text x="0" y="0" size="2.5" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
-<smd name="P$3" x="-6.75" y="-1.2" dx="2.5" dy="1.3" layer="1" roundness="50" rot="R90"/>
-<smd name="P$4" x="6.75" y="-1.2" dx="2.5" dy="1.3" layer="1" roundness="50" rot="R90"/>
+<smd name="P$3" x="-6.75" y="-1.2" dx="3" dy="1.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="P$4" x="6.75" y="-1.2" dx="3" dy="1.4" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="P$1" x="-6.75" y="-1.2" dx="3" dy="1.4" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="P$2" x="6.75" y="-1.2" dx="3" dy="1.4" layer="16" roundness="100" rot="R90" cream="no"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="XT30-RA" urn="urn:adsk.eagle:package:6285131/5" type="model" library_version="240">
+<package3d name="XT30-RA" urn="urn:adsk.eagle:package:6285131/6" type="model" library_version="283" library_locally_modified="yes">
+<description>&lt;a href = https://www.tme.eu/Document/6eb2005a51a52592b3f19e8a450c54c8/XT30PW-M.pdf&gt;Drawing&lt;/a&gt;</description>
 <packageinstances>
 <packageinstance name="XT30-RA"/>
 </packageinstances>
 </package3d>
-<package3d name="XT60PW-M" urn="urn:adsk.eagle:package:8047310/6" type="model" library_version="281">
+<package3d name="XT60PW-M" urn="urn:adsk.eagle:package:8047310/7" type="model" library_version="285">
 <packageinstances>
 <packageinstance name="XT60PW-M"/>
 </packageinstances>
@@ -5116,8 +5132,8 @@ PCB standoffs between the PCBs</text>
 </library>
 <library name="PADS" urn="urn:adsk.eagle:library:3188696">
 <packages>
-<package name="10X4" urn="urn:adsk.eagle:footprint:36258868/2" library_version="60">
-<smd name="P$1" x="0" y="0" dx="9.6" dy="3.6" layer="1" roundness="20" rot="R90"/>
+<package name="10X4" urn="urn:adsk.eagle:footprint:36258868/2" locally_modified="yes" library_version="65" library_locally_modified="yes">
+<smd name="P$1" x="0" y="0" dx="9.6" dy="3.6" layer="1" roundness="20" rot="R90" cream="no"/>
 <wire x1="2" y1="4.5" x2="2" y2="-4.5" width="0.127" layer="21"/>
 <wire x1="2" y1="-4.5" x2="1.5" y2="-5" width="0.127" layer="21" curve="-90"/>
 <wire x1="1.5" y1="-5" x2="-1.5" y2="-5" width="0.127" layer="21"/>
@@ -5129,7 +5145,7 @@ PCB standoffs between the PCBs</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="10X4" urn="urn:adsk.eagle:package:36258869/2" type="box" library_version="60">
+<package3d name="10X4" urn="urn:adsk.eagle:package:36258869/2" type="box" library_version="65" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="10X4"/>
 </packageinstances>
@@ -5652,7 +5668,7 @@ package type OT</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="basic" current="yes"/>
+<variantdef name="basic"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -5860,64 +5876,64 @@ package type OT</description>
 </pass>
 </autorouter>
 <elements>
-<element name="M1" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/5" value="BATTERY_CON-XT30-RA" x="35" y="60.5" smashed="yes" rot="R330">
+<element name="M1" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/6" value="BATTERY_CON-XT30-RA" x="35" y="60.5" smashed="yes" rot="R330">
 <attribute name="LINK" value="https://www.tme.eu/en/details/xt30pw-m/dc-power-connectors/amass/" x="35" y="60.5" size="1.778" layer="27" rot="R330" display="off"/>
 <attribute name="MANF" value="AMASS" x="35" y="60.5" size="1.778" layer="27" rot="R330" display="off"/>
 <attribute name="MANF#" value="XT30PW-M" x="35" y="60.5" size="1.778" layer="27" rot="R330" display="off"/>
 <attribute name="NAME" x="37.54" y="64.89940625" size="1.27" layer="25" font="vector" ratio="15" rot="R330" align="center"/>
 </element>
-<element name="M2" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/5" value="BATTERY_CON-XT30-RA" x="70" y="0" smashed="yes" rot="R270">
+<element name="M2" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/6" value="BATTERY_CON-XT30-RA" x="70" y="0" smashed="yes" rot="R270">
 <attribute name="LINK" value="https://www.tme.eu/en/details/xt30pw-m/dc-power-connectors/amass/" x="70" y="0" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="AMASS" x="70" y="0" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF#" value="XT30PW-M" x="70" y="0" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="75.08" y="0" size="1.27" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="M5" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/5" value="BATTERY_CON-XT30-RA" x="-70" y="0" smashed="yes" rot="R90">
+<element name="M5" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/6" value="BATTERY_CON-XT30-RA" x="-70" y="0" smashed="yes" rot="R90">
 <attribute name="LINK" value="https://www.tme.eu/en/details/xt30pw-m/dc-power-connectors/amass/" x="-70" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="AMASS" x="-70" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="XT30PW-M" x="-70" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-75.08" y="0" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="M4" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/5" value="BATTERY_CON-XT30-RA" x="-38" y="-58" smashed="yes" rot="R150">
+<element name="M4" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/6" value="BATTERY_CON-XT30-RA" x="-38" y="-58" smashed="yes" rot="R150">
 <attribute name="LINK" value="https://www.tme.eu/en/details/xt30pw-m/dc-power-connectors/amass/" x="-38" y="-58" size="1.778" layer="27" rot="R150" display="off"/>
 <attribute name="MANF" value="AMASS" x="-38" y="-58" size="1.778" layer="27" rot="R150" display="off"/>
 <attribute name="MANF#" value="XT30PW-M" x="-38" y="-58" size="1.778" layer="27" rot="R150" display="off"/>
 <attribute name="NAME" x="-40.54" y="-62.39940625" size="1.27" layer="25" font="vector" ratio="15" rot="R150" align="center"/>
 </element>
-<element name="M6" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/5" value="BATTERY_CON-XT30-RA" x="-35" y="60.5" smashed="yes" rot="R30">
+<element name="M6" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/6" value="BATTERY_CON-XT30-RA" x="-35" y="60.5" smashed="yes" rot="R30">
 <attribute name="LINK" value="https://www.tme.eu/en/details/xt30pw-m/dc-power-connectors/amass/" x="-35" y="60.5" size="1.778" layer="27" rot="R30" display="off"/>
 <attribute name="MANF" value="AMASS" x="-35" y="60.5" size="1.778" layer="27" rot="R30" display="off"/>
 <attribute name="MANF#" value="XT30PW-M" x="-35" y="60.5" size="1.778" layer="27" rot="R30" display="off"/>
 <attribute name="NAME" x="-37.54" y="64.89940625" size="1.27" layer="25" font="vector" ratio="15" rot="R30" align="center"/>
 </element>
-<element name="M3" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/5" value="BATTERY_CON-XT30-RA" x="48.5" y="-34.5" smashed="yes" rot="R240">
+<element name="M3" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/6" value="BATTERY_CON-XT30-RA" x="48.5" y="-34.5" smashed="yes" rot="R240">
 <attribute name="LINK" value="https://www.tme.eu/en/details/xt30pw-m/dc-power-connectors/amass/" x="48.5" y="-34.5" size="1.778" layer="27" rot="R240" display="off"/>
 <attribute name="MANF" value="AMASS" x="48.5" y="-34.5" size="1.778" layer="27" rot="R240" display="off"/>
 <attribute name="MANF#" value="XT30PW-M" x="48.5" y="-34.5" size="1.778" layer="27" rot="R240" display="off"/>
 <attribute name="NAME" x="52.899990625" y="-37" size="1.27" layer="25" font="vector" ratio="15" rot="R240" align="center"/>
 </element>
-<element name="PAD8" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="48.55" y="-26.1" populate="no" smashed="yes" rot="MR120"/>
-<element name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-47.6" y="32.8" populate="no" smashed="yes" rot="MR300"/>
-<element name="B1H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/6" value="BATTERY_CON-XT60PW-M" x="-48.79165" y="45.490378125" smashed="yes" rot="R60">
+<element name="PAD8" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="48.55" y="-26.1" smashed="yes" rot="MR120"/>
+<element name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-47.6" y="32.8" smashed="yes" rot="MR300"/>
+<element name="B1H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/7" value="BATTERY_CON-XT60PW-M" x="-48.79165" y="45.490378125" smashed="yes" rot="R60">
 <attribute name="NAME" x="-48.79165" y="45.490378125" size="2.5" layer="21" font="vector" ratio="15" rot="R60" align="center"/>
 </element>
-<element name="B3H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/6" value="BATTERY_CON-XT60PW-M" x="56.29165" y="32.5" smashed="yes" rot="R300">
+<element name="B3H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/7" value="BATTERY_CON-XT60PW-M" x="56.29165" y="32.5" smashed="yes" rot="R300">
 <attribute name="NAME" x="56.29165" y="32.5" size="2.5" layer="21" font="vector" ratio="15" rot="R300" align="center"/>
 </element>
-<element name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-52.25" y="-3.75" populate="no" smashed="yes" rot="MR240"/>
-<element name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="51.15" y="38.65" populate="no" smashed="yes" rot="MR60"/>
-<element name="B3L" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/6" value="BATTERY_CON-XT60PW-M" x="-53.19165" y="-16.349996875" smashed="yes" rot="R120">
+<element name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-52.25" y="-3.75" smashed="yes" rot="MR240"/>
+<element name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="50.05" y="40.35" smashed="yes" rot="MR60"/>
+<element name="B3L" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/7" value="BATTERY_CON-XT60PW-M" x="-53.19165" y="-16.349996875" smashed="yes" rot="R120">
 <attribute name="NAME" x="-53.19165" y="-16.349996875" size="2.5" layer="21" font="vector" ratio="15" rot="R120" align="center"/>
 </element>
-<element name="B1L" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/6" value="BATTERY_CON-XT60PW-M" x="61.51665" y="-23.975" smashed="yes" rot="R240">
+<element name="B1L" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/7" value="BATTERY_CON-XT60PW-M" x="61.51665" y="-23.975" smashed="yes" rot="R240">
 <attribute name="NAME" x="61.51665" y="-23.975" size="2.5" layer="21" font="vector" ratio="15" rot="R240" align="center"/>
 </element>
-<element name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-10.7" y="-14.5" populate="no" smashed="yes" rot="MR0"/>
-<element name="PAD5" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-8.2" y="60.85" populate="no" smashed="yes" rot="MR180"/>
-<element name="B2H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/6" value="BATTERY_CON-XT60PW-M" x="0" y="65" smashed="yes">
+<element name="PAD3" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-10.7" y="-14.5" smashed="yes" rot="MR0"/>
+<element name="PAD5" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="10X4" package3d_urn="urn:adsk.eagle:package:36258869/2" value="PAD-10X4" x="-10.2" y="60.85" smashed="yes" rot="MR180"/>
+<element name="B2H" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/7" value="BATTERY_CON-XT60PW-M" x="0" y="65" smashed="yes">
 <attribute name="NAME" x="0" y="65" size="2.5" layer="21" font="vector" ratio="15" align="center"/>
 </element>
-<element name="B2L" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/6" value="BATTERY_CON-XT60PW-M" x="0.1" y="-20" smashed="yes" rot="R180">
+<element name="B2L" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT60PW-M" package3d_urn="urn:adsk.eagle:package:8047310/7" value="BATTERY_CON-XT60PW-M" x="0.1" y="-20" smashed="yes" rot="R180">
 <attribute name="NAME" x="0.1" y="-20" size="2.5" layer="21" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="IC2" library="dc-dc" library_urn="urn:adsk.eagle:library:3736309" package="SOIC8-POWERPAD" package3d_urn="urn:adsk.eagle:package:24308018/5" value="TPS54560B" x="-18" y="11.5" smashed="yes" rot="R90">
@@ -6678,7 +6694,7 @@ package type OT</description>
 <attribute name="PACKAGE" value="0603" x="-18" y="37.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-18" y="37.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J1" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="CONNECTION_7MM" package3d_urn="urn:adsk.eagle:package:38291084/1" value="CONNECTION-7MM" x="-2.05" y="39.3" populate="no" smashed="yes" rot="R270"/>
+<element name="J1" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="CONNECTION_7MM" package3d_urn="urn:adsk.eagle:package:38291084/1" value="CONNECTION-7MM" x="-2.05" y="39.3" smashed="yes" rot="R270"/>
 <element name="Q1" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="D-PAK" package3d_urn="urn:adsk.eagle:package:27923734/5" value="IRFR2407PBF" x="-22" y="-19" smashed="yes">
 <attribute name="DIGIKEY#" value="" x="-22" y="-19" size="1.778" layer="27" display="off"/>
 <attribute name="LCSC#" value="C40514" x="-22" y="-19" size="1.778" layer="27" display="off"/>
@@ -6733,7 +6749,7 @@ package type OT</description>
 <attribute name="VALUE" x="36.75" y="15.5" size="0.5" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE" value="50V" x="37.75" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RL1" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0603" package3d_urn="urn:adsk.eagle:package:2539454/3" value="DNM" x="37.3" y="12.1" populate="no" smashed="yes">
+<element name="RL1" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0603" package3d_urn="urn:adsk.eagle:package:2539454/3" value="DNM" x="37.3" y="12.1" smashed="yes">
 <attribute name="AEC-Q" value="" x="30.3" y="13.1" size="1.778" layer="27" display="off"/>
 <attribute name="ALLOCATED" value="+" x="30.3" y="13.1" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="" x="30.3" y="13.1" size="1.778" layer="27" display="off"/>
@@ -6746,7 +6762,7 @@ package type OT</description>
 <attribute name="TOLERANCE" value="1%" x="30.3" y="13.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.3" y="13.1" size="0.5" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="C40" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="DNP" x="40" y="12.1" populate="no" smashed="yes" rot="R180">
+<element name="C40" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="DNP" x="40" y="12.1" smashed="yes" rot="R180">
 <attribute name="AEC-Q" value="" x="51" y="18.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ALLOCATED" value="" x="51" y="18.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY#" value="" x="51" y="18.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -6772,7 +6788,7 @@ package type OT</description>
 <attribute name="TOLERANCE" value="1%" x="27.5" y="4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.5" y="10" size="0.5" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="C41" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="DNP" x="37.5" y="10.4" populate="no" smashed="yes">
+<element name="C41" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0603" package3d_urn="urn:adsk.eagle:package:2539457/3" value="DNP" x="37.5" y="10.4" smashed="yes">
 <attribute name="AEC-Q" value="" x="33.5" y="2.4" size="1.778" layer="27" display="off"/>
 <attribute name="ALLOCATED" value="" x="33.5" y="2.4" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="" x="33.5" y="2.4" size="1.778" layer="27" display="off"/>
@@ -6831,7 +6847,7 @@ package type OT</description>
 <attribute name="MANF#" value="BZX84C12LT1G" x="-16.225" y="-22.25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-16.225" y="-22.25" size="0.508" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R24" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0603" package3d_urn="urn:adsk.eagle:package:2539454/3" value="DNM" x="-13.625" y="-22.45" populate="no" smashed="yes" rot="R270">
+<element name="R24" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0603" package3d_urn="urn:adsk.eagle:package:2539454/3" value="DNM" x="-13.625" y="-22.45" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="" x="-13.625" y="-22.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="ALLOCATED" value="+" x="-13.625" y="-22.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" value="" x="-13.625" y="-22.45" size="1.778" layer="27" rot="R270" display="off"/>
@@ -6844,7 +6860,7 @@ package type OT</description>
 <attribute name="TOLERANCE" value="1%" x="-13.625" y="-22.45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-12.625" y="-22.45" size="0.5" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="M7" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/5" value="BATTERY_CON-XT30-RA" x="-54" y="14" smashed="yes" rot="R60">
+<element name="M7" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="XT30-RA" package3d_urn="urn:adsk.eagle:package:6285131/6" value="BATTERY_CON-XT30-RA" x="-54" y="14" smashed="yes" rot="R60">
 <attribute name="LINK" value="https://www.tme.eu/en/details/xt30pw-m/dc-power-connectors/amass/" x="-73.490378125" y="10.241665625" size="1.778" layer="27" rot="R60" display="off"/>
 <attribute name="MANF" value="AMASS" x="-73.490378125" y="10.241665625" size="1.778" layer="27" rot="R60" display="off"/>
 <attribute name="MANF#" value="XT30PW-M" x="-73.490378125" y="10.241665625" size="1.778" layer="27" rot="R60" display="off"/>
@@ -7283,8 +7299,8 @@ package type OT</description>
 <contactref element="PAD8" pad="P$1"/>
 <contactref element="B1L" pad="+"/>
 <polygon width="0.2" layer="16" thermals="no">
-<vertex x="-47.4433" y="42.567559375"/>
-<vertex x="-52.54820625" y="33.72560625"/>
+<vertex x="-46.2169875" y="41.859546875"/>
+<vertex x="-51.32189375" y="33.01759375"/>
 <vertex x="-44.34728125" y="28.990796875"/>
 <vertex x="-39.242378125" y="37.83275625"/>
 </polygon>
@@ -7302,16 +7318,20 @@ package type OT</description>
 <contactref element="PAD3" pad="P$1"/>
 <contactref element="B2L" pad="+"/>
 <polygon width="0.2" layer="16" thermals="no">
-<vertex x="-1.94904375" y="-9.8028875"/>
-<vertex x="-12.366028125" y="-9.8028875"/>
-<vertex x="-12.366028125" y="-19.2359"/>
-<vertex x="-1.94904375" y="-19.2359"/>
+<vertex x="-1.74904375" y="-8.9028875"/>
+<vertex x="-11.366028125" y="-8.9028875" curve="90"/>
+<vertex x="-12.366028125" y="-9.9028875"/>
+<vertex x="-12.366028125" y="-16.3359"/>
+<vertex x="-1.74904375" y="-16.3359"/>
 </polygon>
 <polygon width="0.3" layer="16" thermals="no">
 <vertex x="-1.9" y="56.1"/>
-<vertex x="-9.9" y="56.1"/>
-<vertex x="-9.9" y="65.6"/>
-<vertex x="-1.9" y="65.6"/>
+<vertex x="-11.9" y="56.000990625"/>
+<vertex x="-11.9" y="65.5"/>
+<vertex x="-8" y="65.5"/>
+<vertex x="-8" y="63" curve="90"/>
+<vertex x="-6" y="61"/>
+<vertex x="-1.9" y="61"/>
 </polygon>
 <wire x1="-3.5" y1="-12.8" x2="-3.6" y2="57.8" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -7321,10 +7341,10 @@ package type OT</description>
 <contactref element="B3H" pad="-"/>
 <contactref element="PAD2" pad="P$1"/>
 <polygon width="0.2" layer="16" thermals="no">
-<vertex x="-49.12894375" y="0.34173125"/>
-<vertex x="-57.238715625" y="-4.34045"/>
-<vertex x="-51.9941" y="-13.424390625"/>
-<vertex x="-43.884328125" y="-8.7422125"/>
+<vertex x="-49.042340625" y="0.018528125"/>
+<vertex x="-55.8941" y="-3.937340625"/>
+<vertex x="-50.8110875" y="-12.741378125"/>
+<vertex x="-43.959328125" y="-8.7855125"/>
 </polygon>
 <polygon width="0.2" layer="16" thermals="no">
 <vertex x="54.326003125" y="42.457578125"/>
@@ -7974,9 +7994,8 @@ package type OT</description>
 <signal name="BATNEG">
 <contactref element="B3L" pad="-"/>
 <polygon width="0.2" layer="1" thermals="no" rank="3">
-<vertex x="47.175" y="-23.75"/>
-<vertex x="47.175" y="-24" curve="-90"/>
-<vertex x="37.075" y="-34.1"/>
+<vertex x="47.175" y="-25" curve="-90"/>
+<vertex x="38.075" y="-34.1"/>
 <vertex x="-36.85" y="-34.1" curve="-90"/>
 <vertex x="-46.85" y="-24.1"/>
 <vertex x="-46.85" y="-15.95" curve="-90"/>
@@ -7987,11 +8006,19 @@ package type OT</description>
 <vertex x="-40.75" y="-23"/>
 <vertex x="-14.1" y="-23" curve="90"/>
 <vertex x="-12.1" y="-21"/>
-<vertex x="-12.1" y="-9.3"/>
-<vertex x="21.4" y="-9.3" curve="-90"/>
-<vertex x="23.4" y="-11.3"/>
-<vertex x="23.4" y="-17.1" curve="90"/>
-<vertex x="25.4" y="-19.1"/>
+<vertex x="-12.1" y="-9"/>
+<vertex x="-8.5" y="-9" curve="-90"/>
+<vertex x="-7" y="-10.5"/>
+<vertex x="-7" y="-14.6" curve="90"/>
+<vertex x="-5.5" y="-16.1"/>
+<vertex x="-1.5" y="-16.1" curve="90"/>
+<vertex x="0" y="-14.6"/>
+<vertex x="0" y="-10.5" curve="-90"/>
+<vertex x="1.5" y="-9"/>
+<vertex x="20.9" y="-9" curve="-90"/>
+<vertex x="22.4" y="-10.5"/>
+<vertex x="22.4" y="-14.6" curve="90"/>
+<vertex x="26.9" y="-19.1"/>
 <vertex x="36.3" y="-19.1" curve="90"/>
 <vertex x="38.2" y="-17.2" curve="-90"/>
 <vertex x="40.2" y="-15.2"/>
@@ -7999,7 +8026,7 @@ package type OT</description>
 <vertex x="59.025" y="-17.2"/>
 <vertex x="59.025" y="-17.75" curve="-90"/>
 <vertex x="57.025" y="-19.75"/>
-<vertex x="51.175" y="-19.75" curve="90"/>
+<vertex x="52.425" y="-19.75" curve="90"/>
 </polygon>
 <contactref element="B2L" pad="-"/>
 <contactref element="B1L" pad="-"/>
@@ -8009,7 +8036,6 @@ package type OT</description>
 <contactref element="D5" pad="1"/>
 <contactref element="R24" pad="2"/>
 <contactref element="CON3" pad="1"/>
-<wire x1="-10.25920625" y1="-11.14079375" x2="-11.1" y2="-10.3" width="0.3" layer="1"/>
 <wire x1="-12.73" y1="-7.5" x2="-12.5357875" y2="-7.6942125" width="0.5" layer="1"/>
 <wire x1="-12.5357875" y1="-7.6942125" x2="-11.95" y2="-9.108428125" width="0.5" layer="1" curve="-45.00009"/>
 <wire x1="-11.95" y1="-9.108428125" x2="-11.95" y2="-12.05" width="0.5" layer="1"/>
@@ -8124,10 +8150,10 @@ package type OT</description>
 <vertex x="-0.4" y="58"/>
 <vertex x="-0.4" y="57" curve="-90"/>
 <vertex x="-2.4" y="55"/>
-<vertex x="-40" y="55" curve="90"/>
-<vertex x="-43.1" y="51.9"/>
-<vertex x="-43.1" y="43" curve="90"/>
-<vertex x="-41.9" y="41.8"/>
+<vertex x="-41.1" y="55" curve="90"/>
+<vertex x="-43.1" y="53"/>
+<vertex x="-43.1" y="43.8" curve="90"/>
+<vertex x="-41.1" y="41.8"/>
 <vertex x="28.6" y="41.8" curve="-90"/>
 <vertex x="35.5" y="34.9"/>
 <vertex x="35.5" y="24" curve="90"/>
